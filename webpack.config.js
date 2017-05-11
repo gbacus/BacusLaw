@@ -18,7 +18,9 @@ module.exports = {
   ],
   output: {
     path: __dirname,
-    filename: './public/bundle.js'
+    filename: './public/bundle.js',
+    // publicPath below allows for relative img src paths in components from public/assets folder
+    publicPath: ""
   },
   resolve: {
     root: __dirname,
@@ -29,6 +31,7 @@ module.exports = {
     ],
     alias: {
       app: 'app',
+      logo:'app/assets/img/logo.jpg',
       applicationStyles: 'app/styles/app.scss',
       actions: 'app/actions/actions.jsx',
       reducers: 'app/reducers/reducers.jsx',
