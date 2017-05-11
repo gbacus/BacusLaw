@@ -20,7 +20,7 @@ export var Navigation = React.createClass({
   },
 
   navBarRender: function() {
-    if(this.state.width > 600) {
+    if(this.state.width > 980) {
       return (
         <div>
           <div className="top-bar" id="nav-menu">
