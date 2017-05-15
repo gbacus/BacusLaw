@@ -24,7 +24,7 @@ export var Navigation = React.createClass({
     if(BacusLawAPI.checkUserDevice() || this.state.width < 670) {
       return (
         <div className="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-          <button className="menu-icon" type="button" data-toggle="example-menu"></button>
+          <button className="menu-icon mobileHamburger" type="button" data-toggle="example-menu"></button>
           <div className="title-bar-title center">
             <img
               className='mobilelogo'

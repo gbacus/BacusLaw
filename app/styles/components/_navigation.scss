@@ -22,14 +22,13 @@
 }
 
 .mobilelogo {
-  height: 60px;
-  width: 100px;
+  height: 80px;
+  width: 170px;
+  padding-left: 30px;
 }
 
-.center {
-  align: center;
+.mobileHamburger {
+  //@include hamburger($color, $color-hover, $width, $height, $weight, $bars);
+  @include hamburger($white, $white, 70px, 70px, 12px, 4);
 }
 
-.title-bar .center {
-  text-align: center;
-}
