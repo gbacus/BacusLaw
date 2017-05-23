@@ -15,9 +15,9 @@ export var PracticeAreas = React.createClass({
         <br></br>
 
         <div className="row small-up-1 medium-up-4">
-          <div className="column">
+          <div data-open="exampleModal1" className="column">
             <div className="card-divider">
-              Asylum
+              Asylum (CLICK ME!)
             </div>
             <img src="/assets/StockPhoto.jpg"/>
             <div className="card-section">
@@ -104,6 +104,15 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
+        </div>
+
+        <div className="reveal" id="exampleModal1" data-reveal>
+          <h1>Some More Details Here</h1>
+          <p className="lead">Details about this service.</p>
+          <p>I'm a cool paragraph that lives inside of an even cooler modal.</p>
+          <button className="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
       </div>
     )

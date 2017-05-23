@@ -7,6 +7,8 @@ import PracticeAreas from 'PracticeAreas';
 import Perfil from 'Perfil';
 import Contacto from 'Contacto';
 import Clientes from 'Clientes';
+import Servicios from 'Servicios';
+
 import Home from 'Home';
 
 
@@ -20,6 +22,7 @@ export default (
       <Route path="perfil" component={Perfil} />
       <Route path="contacto" component={Contacto} />
       <Route path="clientes" component={Clientes} />
+      <Route path="servicios" component={Servicios} />
 
       <IndexRoute component={AttorneyProfile} />
     </Route>
