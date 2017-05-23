@@ -14,8 +14,8 @@ export var PracticeAreas = React.createClass({
         <Navigation />
         <br></br>
 
-        <div className="small-12 medium-6 large-3 columns cardPadding">
-          <div className="card cardWidth">
+        <div className="row small-up-1 medium-up-4">
+          <div className="column">
             <div className="card-divider">
               Asylum
             </div>
@@ -25,10 +25,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Imigration Bond
             </div>
@@ -38,10 +36,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Removal & Deportation Defense
             </div>
@@ -51,10 +47,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Adjustment of Status
             </div>
@@ -66,8 +60,8 @@ export var PracticeAreas = React.createClass({
           </div>
         </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+        <div className="row small-up-1 medium-up-4">
+          <div className="column">
             <div className="card-divider">
               Citizenship
             </div>
@@ -77,10 +71,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Deferred Action
             </div>
@@ -90,10 +82,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Visa
             </div>
@@ -103,10 +93,8 @@ export var PracticeAreas = React.createClass({
               <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
-        </div>
 
-        <div className="small-12 medium-6 large-3 columns">
-          <div className="card cardWidth">
+          <div className="column">
             <div className="card-divider">
               Immigration Appeals
             </div>
@@ -117,8 +105,6 @@ export var PracticeAreas = React.createClass({
             </div>
           </div>
         </div>
-
-
       </div>
     )
   }

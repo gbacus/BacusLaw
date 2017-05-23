@@ -6,21 +6,23 @@ import BacusLawAPI from 'BacusLawAPI';
 
 export var Navigation = React.createClass({
 
-  updateDimensions: function() {
-    this.setState({width: $(window).width(), height: $(window).height()});
-  },
-  componentWillMount: function() {
-    this.updateDimensions();
-  },
-  componentDidMount: function() {
-    window.addEventListener("resize", this.updateDimensions);
-  },
-  componentWillUnmount: function() {
-    window.removeEventListener("resize", this.updateDimensions);
-  },
+  // updateDimensions: function() {
+  //   this.setState({width: $(window).width(), height: $(window).height()});
+  // },
+  // componentWillMount: function() {
+  //   this.updateDimensions();
+  // },
+  // componentDidMount: function() {
+  //   window.addEventListener("resize", this.updateDimensions);
+  // },
+  // componentWillUnmount: function() {
+  //   window.removeEventListener("resize", this.updateDimensions);
+  // },
 
   navBarRender: function() {
-    if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
+    //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
+    if(BacusLawAPI.checkUserDevice()) {
+
       return (
         <div>
           {/*Mobile Nav Bar*/}
@@ -71,7 +73,7 @@ export var Navigation = React.createClass({
           <div className="top-bar" id="nav-menu">
             <div className="top-bar-left">
               <ul className="dropdown menu" data-dropdown-menu>
-                <li><Link to='/' activeClassName='active-link'><img
+                <li><Link to='/profile' activeClassName='active-link'><img
                   className='logo'
                   src='/assets/logo.jpg'
                   alt='logo' />
