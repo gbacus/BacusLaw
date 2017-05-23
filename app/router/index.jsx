@@ -9,8 +9,6 @@ import Contacto from 'Contacto';
 import Clientes from 'Clientes';
 import Servicios from 'Servicios';
 
-import Home from 'Home';
-
 
 export default (
   <Router history={hashHistory}>

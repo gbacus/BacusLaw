@@ -93,11 +93,6 @@ export var Navigation = React.createClass({
                   }>En Español</div></Link></li>
                 </ul>
               </div>
-              <div className="top-bar-right">
-                <ul className="dropdown menu phoneNumberMain" data-dropdown-menu>
-                  <li><Link activeClassName='active-link'>(832) 910-7923</Link></li>
-                </ul>
-              </div>
             </div>
           </div>
         )
@@ -120,11 +115,6 @@ export var Navigation = React.createClass({
                     dispatch(actions.toggleLanguage())
                     }
                   }>In English</div></Link></li>
-                </ul>
-              </div>
-              <div className="top-bar-right">
-                <ul className="dropdown menu phoneNumberMain" data-dropdown-menu>
-                  <li><Link activeClassName='active-link'>(832) 910-7923</Link></li>
                 </ul>
               </div>
             </div>

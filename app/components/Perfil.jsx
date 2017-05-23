@@ -29,6 +29,7 @@ export var Perfil = React.createClass({
         <div className="row">
           <div className="small-12 medium-12 large-12 columns textCenter">
             <h5>Llame hoy por una consulta gratuita</h5>
+            <h5>(832) 910-7923</h5>
           </div>
         </div>
 
