@@ -1,10 +1,5 @@
 .textcenter {
   text-align: center;
-  &:hover {
-    color: #1779ba;
-    cursor: pointer;
-    text-decoration: underline;
-  }
 }
 
 .imageResize {
@@ -14,7 +9,7 @@
   margin: auto;
 }
 
-a[href^="mailto:"]{
+a[href]{
   color: black;
   &:hover {
     color: #1779ba;

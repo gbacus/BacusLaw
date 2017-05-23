@@ -17,7 +17,7 @@ export var Servicios = React.createClass({
         <div className="row small-up-1 medium-up-4">
           <div data-open="exampleModal1" className="column">
             <div className="card-divider">
-              Asylum (CLICK ME!)
+              Asylum
             </div>
             <img src="/assets/StockPhoto.jpg"/>
             <div className="card-section">
@@ -39,7 +39,7 @@ export var Servicios = React.createClass({
 
           <div className="column">
             <div className="card-divider">
-              Removal & Deportation Defense
+              Deportation Defense
             </div>
             <img src="/assets/StockPhoto.jpg"/>
             <div className="card-section">
