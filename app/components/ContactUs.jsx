@@ -12,7 +12,28 @@ export var ContactUs = React.createClass({
     return(
       <div>
         <Navigation />
-        <p>ContactUs Page</p>
+        <br></br>
+        <div className="row">
+          <div className="small-12 medium-12 large-12 columns callout textcenter">
+            <h4>Email: eric@bacuslaw.com</h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="small-12 medium-12 large-12 columns callout textcenter">
+            <h4>Phone: (832) 910-7923</h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="small-12 medium-12 large-12 columns callout textcenter">
+            <h4>Fax: (800) 823-3109</h4>
+          </div>
+        </div>
+        <div className="row">
+          <div className="small-12 medium-12 large-12 columns callout textcenter">
+            <h4>Address: 11040 East Fwy, Houston, TX 77029</h4>
+            <img src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
+          </div>
+        </div>
       </div>
     )
   }

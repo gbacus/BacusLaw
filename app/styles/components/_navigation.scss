@@ -32,3 +32,15 @@
   @include hamburger($white, $white, 70px, 70px, 12px, 4);
 }
 
+.phoneNumber {
+  color: $white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.phoneNumberMain {
+  padding-top: 22px;
+  font-weight: bold;
+}
+
+

@@ -7,7 +7,11 @@ import router from 'app/router/';
 
 
 // Load foundation
-$(document).foundation();
+//$(document).foundation();
+
+$(document).ready(function(){
+    $(document).foundation();
+});
 
 //App css
 require('style!css!sass!applicationStyles')
