@@ -26,6 +26,7 @@ export var Navigation = React.createClass({
   navBarRender: function() {
     //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
     var {nav, dispatch} = this.props;
+    var profileString = nav ? "/perfil" : "/profile";
     //if(BacusLawAPI.checkUserDevice()) {
       if(1 === 0) {
       return (
@@ -77,7 +78,7 @@ export var Navigation = React.createClass({
             <div className="top-bar" id="nav-menu">
               <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                  <li><Link to='/profile' activeClassName='active-link'><img
+                  <li><Link to={profileString} activeClassName='active-link'><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
@@ -106,7 +107,7 @@ export var Navigation = React.createClass({
             <div className="top-bar" id="nav-menu">
               <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                  <li><Link to='/profile' activeClassName='active-link'><img
+                  <li><Link to={profileString} activeClassName='active-link'><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
