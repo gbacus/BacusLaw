@@ -15,7 +15,7 @@ export var ContactUs = React.createClass({
         <br></br>
         <div className="row">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
-            <h4>Email: eric@bacuslaw.com</h4>
+            <h4 className="textcenter"><a href="mailto:eric@bacuslaw.com">Email: eric@bacuslaw.com</a></h4>
           </div>
         </div>
         <div className="row">

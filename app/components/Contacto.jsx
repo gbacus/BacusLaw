@@ -13,22 +13,22 @@ export var Contacto = React.createClass({
       <div>
         <Navigation />
         <br></br>
-        <div className="row">
+        <div className="row contactHover">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
             <h4>Email: eric@bacuslaw.com</h4>
           </div>
         </div>
-        <div className="row">
+        <div className="row contactHover">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
             <h4>Cellular: (832) 910-7923</h4>
           </div>
         </div>
-        <div className="row">
+        <div className="row contactHover">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
             <h4>Fax: (800) 823-3109</h4>
           </div>
         </div>
-        <div className="row">
+        <div className="row contactHover">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
             <h4>Dirección: 11040 East Fwy, Houston, TX 77029</h4>
           </div>
