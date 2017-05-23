@@ -89,10 +89,10 @@ export var Navigation = React.createClass({
                   <li><Link to='/contact' activeClassName='active-link'>Contact</Link></li>
                   <li><Link to='/clients' activeClassName='active-link'>Detained Clients</Link></li>
                   <li><Link to='/areas' activeClassName='active-link'>Practice Areas</Link></li>
-                  <li><div onClick={() => {
+                  <li><Link to='/perfil' className='bold' activeClassName='active-link'><div onClick={() => {
                     dispatch(actions.toggleLanguage())
                     }
-                  }><Link to='/perfil' className='bold' activeClassName='active-link'>En Español</Link></div></li>
+                  }>En Español</div></Link></li>
                 </ul>
               </div>
               <div className="top-bar-right">
@@ -114,14 +114,14 @@ export var Navigation = React.createClass({
                     src='/assets/logo.jpg'
                     alt='logo' />
                   </Link></li>
-                  <li><Link to='/profile' activeClassName='active-link'>Perfil de Abogado</Link></li>
-                  <li><Link to='/contact' activeClassName='active-link'>Información del Contacto</Link></li>
-                  <li><Link to='/clients' activeClassName='active-link'>Clientes Detenidos</Link></li>
-                  <li><Link to='/areas' activeClassName='active-link'>Servicios</Link></li>
-                  <li><div onClick={() => {
+                  <li><Link to='/perfil' activeClassName='active-link'>Perfil de Abogado</Link></li>
+                  <li><Link to='/contacto' activeClassName='active-link'>Información del Contacto</Link></li>
+                  <li><Link to='/clientes' activeClassName='active-link'>Clientes Detenidos</Link></li>
+                  <li><Link to='/servicios' activeClassName='active-link'>Servicios</Link></li>
+                  <li><Link to='/profile' activeClassName='active-link'><div onClick={() => {
                     dispatch(actions.toggleLanguage())
                     }
-                  }><Link to='/perfil' activeClassName='active-link'>In English</Link></div></li>
+                  }>In English</div></Link></li>
                 </ul>
               </div>
               <div className="top-bar-right">
