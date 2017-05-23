@@ -31,9 +31,9 @@ export var ContactUs = React.createClass({
         <div className="row">
           <div className="small-12 medium-12 large-12 columns callout textcenter">
             <h4>Address: 11040 East Fwy, Houston, TX 77029</h4>
-            <img src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
           </div>
         </div>
+        <img className="imageResize" src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
       </div>
     )
   }

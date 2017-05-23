@@ -4,6 +4,7 @@ import AttorneyProfile from 'AttorneyProfile';
 import ContactUs from 'ContactUs';
 import DetainedClients from 'DetainedClients';
 import PracticeAreas from 'PracticeAreas';
+import Perfil from 'Perfil';
 import Home from 'Home';
 
 
@@ -14,7 +15,8 @@ export default (
       <Route path="contact" component={ContactUs} />
       <Route path="clients" component={DetainedClients} />
       <Route path="areas" component={PracticeAreas} />
-      <IndexRoute component={Home} />
+      <Route path="perfil" component={Perfil} />
+      <IndexRoute component={AttorneyProfile} />
     </Route>
   </Router>
 )

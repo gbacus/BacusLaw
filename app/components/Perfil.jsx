@@ -5,7 +5,7 @@ import Navigation from 'Navigation';
 
 //import * as actions from 'actions';
 
-export var AttorneyProfile = React.createClass({
+export var Perfil = React.createClass({
 
   render() {
 
@@ -16,8 +16,8 @@ export var AttorneyProfile = React.createClass({
 
         <div className="row">
           <div className="small-12 medium-12 large-12 columns textCenter">
-            <h1>Welcome to Bacus Law</h1>
-            <h4>Eric Bacus, Immigration Attorney</h4>
+            <h1>Bienvenido a Bacus Law</h1>
+            <h4>Eric Bacus, Abogado de Inmigracíon</h4>
             <h6 className="ital">Se Habla Español</h6>
           </div>
         </div>
@@ -28,7 +28,7 @@ export var AttorneyProfile = React.createClass({
         </div>
         <div className="row">
           <div className="small-12 medium-12 large-12 columns textCenter">
-            <h5>Call today for a free consultation.</h5>
+            <h5>Llame hoy por una consulta gratuita</h5>
           </div>
         </div>
 
@@ -37,4 +37,4 @@ export var AttorneyProfile = React.createClass({
   }
 })
 
-export default Redux.connect()(AttorneyProfile);
+export default Redux.connect()(Perfil);

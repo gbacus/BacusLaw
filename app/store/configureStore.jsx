@@ -2,11 +2,11 @@ import * as redux from 'redux';
 //import thunk from 'redux-thunk'
 
 
-import {} from 'reducers';
+import {navReducer} from 'reducers';
 
 export var configure = (initialState = {}) => {
   var reducer = redux.combineReducers({
-
+    nav: navReducer
   });
 
   var store = redux.createStore(reducer, initialState, redux.compose(
