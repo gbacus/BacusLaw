@@ -31,6 +31,12 @@ export var Perfil = React.createClass({
             <div className="small-12 medium-12 large-12 columns textCenter">
               <h5>Llame hoy por una consulta gratuita</h5>
               <h5><a className="boldNumber" href="tel:+1-832-910-7923">(832) 910-7923</a></h5>
+              <a
+                href="https://www.linkedin.com/in/eric-bacus-8b08224/"
+                target="_blank"
+                className="linkedInResize">
+                <img src='/assets/Logo-2C-128px-R.png' alt="linkedIn logo"/>
+              </a>
             </div>
           </div>
         </div>

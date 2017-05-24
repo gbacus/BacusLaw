@@ -3,9 +3,3 @@ export var toggleLanguage = () => {
     type: 'TOGGLE_LANGAUGE'
   }
 };
-
-export var consoleToggle = () => {
-  return {
-    type: 'CONSOLE_TOGGLE'
-  }
-};
