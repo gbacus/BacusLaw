@@ -8,22 +8,9 @@ import * as Redux from 'react-redux';
 import BacusLawAPI from 'BacusLawAPI';
 
 
-export var Navigation = React.createClass({
+export var Footer = React.createClass({
 
-  // updateDimensions: function() {
-  //   this.setState({width: $(window).width(), height: $(window).height()});
-  // },
-  // componentWillMount: function() {
-  //   this.updateDimensions();
-  // },
-  // componentDidMount: function() {
-  //   window.addEventListener("resize", this.updateDimensions);
-  // },
-  // componentWillUnmount: function() {
-  //   window.removeEventListener("resize", this.updateDimensions);
-  // },
-
-  navBarRender: function() {
+  footerRender: function() {
     //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
     var {nav, dispatch} = this.props;
     var profileString = nav ? "/perfil" : "/profile";
@@ -74,33 +61,38 @@ export var Navigation = React.createClass({
     } else {
       if (!nav) {
         return (
-          <div>
-            <div className="top-bar" id="nav-menu">
-              <div className="top-bar-left">
-                <ul className="dropdown menu" data-dropdown-menu>
-                  <li><Link to={profileString} activeClassName='active-link'><img
-                    className='logo'
-                    src='/assets/logo.jpg'
-                    alt='logo' />
-                  </Link></li>
-                  <li><Link to='/profile' activeClassName='active-link'>Attorney Profile</Link></li>
-                  <li><Link to='/contact' activeClassName='active-link'>Contact</Link></li>
-                  <li><Link to='/clients' activeClassName='active-link'>Detained Clients</Link></li>
-                  <li><Link to='/areas' activeClassName='active-link'>Practice Areas</Link></li>
-                  <li><Link to='/perfil' className='bold' activeClassName='active-link'><div onClick={() => {
+          <footer>
+            <div className="wrap row small-up-1 medium-up-3">
+              <div className="column">
+                <h4>Contact Info</h4>
+                <hr/>
+                <a><a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">11040 East Fwy</a><a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">Houston, TX 77029</a></a>
+                <a href="tel:+1-832-910-7923">(832) 910-7923</a>
+              </div>
+
+              <div className="column">
+                <h4>Site Map</h4>
+                <hr/>
+                  <a><Link to='/profile' activeClassName='active-link'>Attorney Profile</Link></a>
+                  <a><Link to='/contact' activeClassName='active-link'>Contact</Link></a>
+                  <a><Link to='/clients' activeClassName='active-link'>Detained Clients</Link></a>
+                  <a><Link to='/areas' activeClassName='active-link'>Practice Areas</Link></a>
+                  <a><Link to='/perfil' className='bold' activeClassName='active-link'><div onClick={() => {
                     dispatch(actions.toggleLanguage())
                     }
-                  }>En Español</div></Link></li>
-                </ul>
+                  }>En Español</div></Link></a>
               </div>
-              <div className="top-bar-right topRight">
-                <ul className="dropdown menu" data-dropdown-menu>
-                  <div className="freeConsultation">Free Consultation</div>
-                  <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
-                </ul>
+
+              <div className="column">
+                <h4>Social Media</h4>
+                <hr/>
+                <a>Twitter</a>
+                <a>LinkedIn</a>
+                <a>Justia</a>
               </div>
+
             </div>
-          </div>
+          </footer>
         )
       } else {
         return (
@@ -138,7 +130,7 @@ export var Navigation = React.createClass({
   render: function() {
     return (
       <div>
-        {this.navBarRender()}
+        {this.footerRender()}
       </div>
     )
   }
@@ -151,4 +143,24 @@ export default connect(
       nav: state.nav
     };
   }
-)(Navigation);
+)(Footer);
+
+
+// <div className="top-bar" id="nav-menu">
+//   <div className="top-bar-left">
+//     <ul className="dropdown menu" data-dropdown-menu>
+//       <li><Link to={profileString} activeClassName='active-link'><img
+//         className='logo'
+//         src='/assets/logo.jpg'
+//         alt='logo' />
+//       </Link></li>
+
+//     </ul>
+//   </div>
+//   <div className="top-bar-right topRight">
+//     <ul className="dropdown menu" data-dropdown-menu>
+//       <div className="freeConsultation">Free Consultation</div>
+//       <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
+//     </ul>
+//   </div>
+// </div>

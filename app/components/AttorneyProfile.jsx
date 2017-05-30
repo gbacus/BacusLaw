@@ -1,6 +1,7 @@
 import React from 'react'
 import * as Redux from 'react-redux';
 import Navigation from 'Navigation';
+import Footer from 'Footer';
 
 
 //import * as actions from 'actions';
@@ -41,6 +42,7 @@ export var AttorneyProfile = React.createClass({
           </div>
         </div>
 
+        <Footer />
       </div>
     )
   }
