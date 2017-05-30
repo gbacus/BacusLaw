@@ -6,6 +6,7 @@ var store = require('configureStore').configure();
 import router from 'app/router/';
 
 
+
 // Load foundation
 //$(document).foundation();
 
@@ -18,8 +19,11 @@ require('style!css!sass!applicationStyles')
 
 
 ReactDOM.render(
-  <Provider store={store}>
-    {router}
-  </Provider>,
+
+  <div>
+    <Provider store={store}>
+      {router}
+    </Provider>
+  </div>,
   document.getElementById('app')
 );

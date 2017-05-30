@@ -1,9 +1,7 @@
 import React from 'react'
 import * as Redux from 'react-redux';
 import Navigation from 'Navigation';
-
-
-//import * as actions from 'actions';
+import Footer from 'Footer';
 
 export var Perfil = React.createClass({
 
@@ -40,7 +38,7 @@ export var Perfil = React.createClass({
             </div>
           </div>
         </div>
-
+        <Footer />
       </div>
     )
   }

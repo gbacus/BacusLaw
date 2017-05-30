@@ -41,11 +41,11 @@ export var ContactUs = React.createClass({
               <img className="imageResize" src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
             </div>
           </div>
-          <div className="row">
-            {/*<div className="small-12 medium-12 large-12 columns callout textcenter">
+          {/*<div className="row">
+            <div className="small-12 medium-12 large-12 columns callout textcenter">
               <GoogleMap />
-            </div>*/}
-          </div>
+            </div>
+          </div>*/}
         </div>
         <Footer />
       </div>
