@@ -4,6 +4,7 @@ var {Provider} = require('react-redux');
 
 var store = require('configureStore').configure();
 import router from 'app/router/';
+import Magellan from 'Magellan';
 
 
 
@@ -22,7 +23,7 @@ ReactDOM.render(
 
   <div>
     <Provider store={store}>
-      {router}
+      <Magellan />
     </Provider>
   </div>,
   document.getElementById('app')

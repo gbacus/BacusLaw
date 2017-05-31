@@ -12,7 +12,9 @@ export var Navigation = React.createClass({
 
   updateDimensions: function() {
     this.setState({width: $(window).width(), height: $(window).height()});
-    //console.log(this.getScrollTop());
+    // console.log("1", document.body.scrollTop);
+    // console.log("2", Math.ceil(this.getScrollTop()));
+    // console.log("3", document.body.offsetHeight);
   },
   componentWillMount: function() {
     this.updateDimensions();
@@ -43,10 +45,9 @@ export var Navigation = React.createClass({
 
   navBarRender: function() {
     var {nav, dispatch} = this.props;
-    var profileString = nav ? "/perfil" : "/profile";
     var navString;
 
-    if(this.getScrollTop() === 0) {
+    if(Math.ceil(this.getScrollTop()) === 0) {
       navString = "top-bar sticky is-anchored is-at-top";
     } else {
       navString = "top-bar sticky is-at-top is-stuck";
@@ -104,25 +105,30 @@ export var Navigation = React.createClass({
           <div data-sticky-container>
             <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
-                <ul className="dropdown menu" data-dropdown-menu>
-                  <li><Link to={profileString} activeClassName='active-link'><img
+                <ul className="dropdown menu"
+                  data-magellan
+                  data-animation-duration={200}
+                  data-active-class="boldNav"
+                  data-bar-offset={62}
+                  >
+                  <li><a href="#profile" activeClassName='boldNav'><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
-                  </Link></li>
-                  <li><Link to='/profile' activeClassName='active-link'>Attorney Profile</Link></li>
-                  <li><Link to='/contact' activeClassName='active-link'>Contact</Link></li>
-                  <li><Link to='/clients' activeClassName='active-link'>Detained Clients</Link></li>
-                  <li><Link to='/areas' activeClassName='active-link'>Practice Areas</Link></li>
-                  <li><Link to='/perfil' className='bold' activeClassName='active-link'><div onClick={() => {
+                  </a></li>
+                  <li><a href="#profile" data-active-class="boldNav">Attorney Profile</a></li>
+                  <li><a href='#contact' data-active-class="boldNav">Contact</a></li>
+                  <li><a href='#clients' data-active-class="boldNav">Detained Clients</a></li>
+                  <li><a href='#areas' data-active-class="boldNav">Practice Areas</a></li>
+                  <li><a className='bold' ><div onClick={() => {
                     dispatch(actions.toggleLanguage())
                     }
-                  }>En Español</div></Link></li>
+                  }>En Español</div></a></li>
                   <li>{this.height}</li>
                 </ul>
               </div>
               <div className="top-bar-right topRight">
-                <ul className="dropdown menu" data-dropdown-menu>
+                <ul className="dropdown menu" data-magellan>
                   <div className="freeConsultation">Free Consultation</div>
                   <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
                 </ul>
@@ -136,24 +142,24 @@ export var Navigation = React.createClass({
             <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                  <li><Link to={profileString} activeClassName='active-link'><img
+                  <li><a href="#profile" activeClassName='boldNav'><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
-                  </Link></li>
-                  <li><Link to='/perfil' activeClassName='active-link'>Perfil de Abogado</Link></li>
-                  <li><Link to='/contacto' activeClassName='active-link'>Información del Contacto</Link></li>
-                  <li><Link to='/clientes' activeClassName='active-link'>Clientes Detenidos</Link></li>
-                  <li><Link to='/servicios' activeClassName='active-link'>Servicios</Link></li>
-                  <li><Link to='/profile' activeClassName='active-link'><div onClick={() => {
+                  </a></li>
+                  <li><a href='#profile' activeClassName='boldNav'>Perfil de Abogado</a></li>
+                  <li><a href='#contact' activeClassName='boldNav'>Contacto</a></li>
+                  <li><a href='#clients' activeClassName='boldNav'>Clientes Detenidos</a></li>
+                  <li><a href='#areas' activeClassName='boldNav'>Servicios</a></li>
+                  <li><a activeClassName='active-link'><div onClick={() => {
                     dispatch(actions.toggleLanguage())
                     }
-                  }>In English</div></Link></li>
+                  }>In English</div></a></li>
                 </ul>
               </div>
               <div className="top-bar-right topRight">
                 <ul className="dropdown menu" data-dropdown-menu>
-                  <div className="freeConsultation">Free Consultation</div>
+                  <div className="freeConsultation">Consulta Gratuita</div>
                   <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
                 </ul>
               </div>

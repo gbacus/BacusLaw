@@ -9,22 +9,24 @@ import Contacto from 'Contacto';
 import Clientes from 'Clientes';
 import Servicios from 'Servicios';
 import Navigation from 'Navigation';
+import Magellan from 'Magellan';
 
 
 export default (
 
   <Router history={hashHistory}>
     <Route path="/">
-      <Route path="profile" component={AttorneyProfile} />
+      {/*<Route path="profile" component={AttorneyProfile} />
       <Route path="contact" component={ContactUs} />
       <Route path="clients" component={DetainedClients} />
       <Route path="areas" component={PracticeAreas} />
       <Route path="perfil" component={Perfil} />
       <Route path="contacto" component={Contacto} />
       <Route path="clientes" component={Clientes} />
-      <Route path="servicios" component={Servicios} />
+      <Route path="servicios" component={Servicios} />*/}
+      <IndexRoute component={Magellan} />
 
-      <IndexRoute component={AttorneyProfile} />
+      {/*<IndexRoute component={AttorneyProfile} />*/}
     </Route>
   </Router>
 )

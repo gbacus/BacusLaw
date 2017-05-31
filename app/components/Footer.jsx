@@ -24,14 +24,14 @@ export var Footer = React.createClass({
             <div className="column">
               <h4>Site Map</h4>
               <hr/>
-                <Link to='/profile' activeClassName='active-link'>Attorney Profile</Link>
-                <Link to='/contact' activeClassName='active-link'>Contact</Link>
-                <Link to='/clients' activeClassName='active-link'>Detained Clients</Link>
-                <Link to='/areas' activeClassName='active-link'>Practice Areas</Link>
-                <Link to='/perfil' className='bold' activeClassName='active-link'><div onClick={() => {
+                <a href='#profile' activeClassName='active-link'>Attorney Profile</a>
+                <a href='#contact' activeClassName='active-link'>Contact</a>
+                <a href='#clients' activeClassName='active-link'>Detained Clients</a>
+                <a href='#areas' activeClassName='active-link'>Practice Areas</a>
+                <a href='#perfil' className='bold' activeClassName='active-link'><div onClick={() => {
                   dispatch(actions.toggleLanguage())
                   }
-                }>En Español</div></Link>
+                }>En Español</div></a>
             </div>
 
             <div className="column">
@@ -61,14 +61,14 @@ export var Footer = React.createClass({
               <h4>Mapa del Sitio</h4>
               <hr/>
 
-                <Link to='/perfil' activeClassName='active-link'>Perfil de Abogado</Link>
-                <Link to='/contacto' activeClassName='active-link'>Información del Contacto</Link>
-                <Link to='/clientes' activeClassName='active-link'>Clientes Detenidos</Link>
-                <Link to='/servicios' activeClassName='active-link'>Servicios</Link>
-                <Link to='/profile' activeClassName='active-link'><div onClick={() => {
+                <a href='#profile' activeClassName='active-link'>Perfil de Abogado</a>
+                <a href='#contact' activeClassName='active-link'>Contacto</a>
+                <a href='#clients' activeClassName='active-link'>Clientes Detenidos</a>
+                <a href='#areas' activeClassName='active-link'>Servicios</a>
+                <a href='#perfil' className='bold' activeClassName='active-link'><div onClick={() => {
                   dispatch(actions.toggleLanguage())
                   }
-                }>In English</div></Link>
+                }>In English</div></a>
 
             </div>
 
