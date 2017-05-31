@@ -10,14 +10,16 @@ export var Servicios = React.createClass({
 
   render() {
 
-        return(
+      return(
 
       <div className="sections">
         <section id="areas" data-magellan-target="areas">
           <div className="callout small">
             <br></br>
             <div className="row small-up-1 medium-up-4">
-              <div data-open="exampleModal1" className="column">
+
+
+              <div className="column cardSection">
                 <div className="card-divider">
                   Asylum
                 </div>
@@ -28,7 +30,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Imigration Bond
                 </div>
@@ -39,7 +41,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Deportation Defense
                 </div>
@@ -50,7 +52,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Adjustment of Status
                 </div>
@@ -63,7 +65,7 @@ export var Servicios = React.createClass({
             </div>
 
             <div className="row small-up-1 medium-up-4">
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Citizenship
                 </div>
@@ -74,7 +76,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Deferred Action
                 </div>
@@ -85,7 +87,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Visa
                 </div>
@@ -96,7 +98,7 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column">
+              <div className="column cardSection">
                 <div className="card-divider">
                   Immigration Appeals
                 </div>
@@ -107,15 +109,6 @@ export var Servicios = React.createClass({
                 </div>
               </div>
             </div>
-
-            {/*<div className="reveal" id="exampleModal1" data-reveal>
-              <h1>Some More Details Here</h1>
-              <p className="lead">Details about this service.</p>
-              <p>I'm a cool paragraph that lives inside of an even cooler modal.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>*/}
 
           </div>
         </section>

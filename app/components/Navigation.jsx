@@ -109,7 +109,7 @@ export var Navigation = React.createClass({
                   data-magellan
                   data-animation-duration={200}
                   data-active-class="boldNav"
-                  data-bar-offset={62}
+                  data-bar-offset={60}
                   >
                   <li><a href="#profile" activeClassName='boldNav'><img
                     className='logo'
@@ -120,17 +120,18 @@ export var Navigation = React.createClass({
                   <li><a href='#contact' data-active-class="boldNav">Contact</a></li>
                   <li><a href='#clients' data-active-class="boldNav">Detained Clients</a></li>
                   <li><a href='#areas' data-active-class="boldNav">Practice Areas</a></li>
-                  <li><a className='bold' ><div onClick={() => {
-                    dispatch(actions.toggleLanguage())
-                    }
-                  }>En Español</div></a></li>
-                  <li>{this.height}</li>
                 </ul>
               </div>
-              <div className="top-bar-right topRight">
-                <ul className="dropdown menu" data-magellan>
-                  <div className="freeConsultation">Free Consultation</div>
-                  <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
+              <div className="top-bar-right">
+                <ul className="dropdown menu">
+                  <li><a className='button' onClick={() => {
+                    dispatch(actions.toggleLanguage())
+                    }
+                  }>En Español</a></li>
+                  <li>
+                    <div className="freeConsultation">Free Consultation</div>
+                    <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -151,16 +152,18 @@ export var Navigation = React.createClass({
                   <li><a href='#contact' activeClassName='boldNav'>Contacto</a></li>
                   <li><a href='#clients' activeClassName='boldNav'>Clientes Detenidos</a></li>
                   <li><a href='#areas' activeClassName='boldNav'>Servicios</a></li>
-                  <li><a activeClassName='active-link'><div onClick={() => {
-                    dispatch(actions.toggleLanguage())
-                    }
-                  }>In English</div></a></li>
                 </ul>
               </div>
-              <div className="top-bar-right topRight">
-                <ul className="dropdown menu" data-dropdown-menu>
-                  <div className="freeConsultation">Consulta Gratuita</div>
-                  <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
+              <div className="top-bar-right">
+                <ul className="dropdown menu">
+                  <li><a className='button' onClick={() => {
+                    dispatch(actions.toggleLanguage())
+                    }
+                  }>In English</a></li>
+                  <li>
+                    <div className="freeConsultation">Consulta Gratuita</div>
+                    <div className="navNumber"><a href="tel:+1-832-910-7923">(832) 910-7923</a></div>
+                  </li>
                 </ul>
               </div>
             </div>

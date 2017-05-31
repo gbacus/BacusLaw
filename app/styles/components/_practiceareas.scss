@@ -5,3 +5,11 @@
 .thinBorder {
   border: 1px solid black;
 }
+
+.cardSection {
+  width: 300px;
+  &:hover {
+    border: 2px solid $primary-color;
+    cursor: pointer;
+  }
+}

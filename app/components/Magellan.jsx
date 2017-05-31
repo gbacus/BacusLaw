@@ -38,7 +38,7 @@ export var Magellan = React.createClass({
         <div>
           <Navigation />
           <Perfil />
-          <Contacto />
+          <ContactUs />
           <Clientes />
           <Servicios />
           <Footer />

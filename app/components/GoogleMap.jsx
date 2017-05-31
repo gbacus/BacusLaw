@@ -18,7 +18,8 @@ export var GoogleMap = React.createClass({
         center: new google.maps.LatLng(29.765511,-95.304302),
         zoom:11,
         backgroundColor: "#000000",
-        mapTypeId: google.maps.MapTypeId.TERRAIN
+        mapTypeId: google.maps.MapTypeId.TERRAIN,
+        scrollwheel: false
       }
       map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
       var marker = new google.maps.Marker({
