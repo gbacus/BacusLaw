@@ -2,6 +2,8 @@ import React from 'react'
 import * as Redux from 'react-redux';
 import Navigation from 'Navigation';
 import Footer from 'Footer';
+import TwitterFeed from 'TwitterFeed';
+import AccordianExample from 'AccordianExample';
 
 
 
@@ -20,6 +22,28 @@ export var DetainedClients = React.createClass({
                 <a href="https://locator.ice.gov/odls/homePage.do" target="_blank">Please click here for further contact information</a>
               </div>
             </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <AccordianExample />
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </section>
       </div>
     )

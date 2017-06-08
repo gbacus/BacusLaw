@@ -12,9 +12,7 @@
 //   }
 // }
 
-.test {
-  font-size: 100px;
-}
+
 
 .logo {
   height: 60px;
@@ -69,6 +67,12 @@
 .top-bar-right li{
   padding-top: 17px;
   padding-right: 2rem;
+}
+
+#nav-menu a:hover{
+  font-weight: bold;
+  text-decoration: none;
+  color: #1779ba;
 }
 
 

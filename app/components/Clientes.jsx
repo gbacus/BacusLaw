@@ -2,6 +2,8 @@ import React from 'react'
 import * as Redux from 'react-redux';
 import Navigation from 'Navigation';
 import Footer from 'Footer';
+import TwitterFeed from 'TwitterFeed';
+import AccordianExample from 'AccordianExample';
 
 
 
@@ -20,14 +22,32 @@ export var Clientes = React.createClass({
                 <a href="https://locator.ice.gov/odls/homePage.do" target="_blank">Por favor, haga clic aquí para obtener más información de contacto</a>
               </div>
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <AccordianExample />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </section>
       </div>
     )
-
   }
 })
 
 export default Redux.connect()(Clientes);
-
-
-
