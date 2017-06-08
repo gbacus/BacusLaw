@@ -17,10 +17,12 @@ export var AttorneyProfile = React.createClass({
       <div className="sections">
         <section id="profile" data-magellan-target="profile">
           <div className="callout small main">
-            <div className="row callout success">
-              <div className="small-12 medium-12 large-12 columns textCenter">
-                <h1>Welcome to Bacus Law</h1>
-                <h4>Eric Bacus, Immigration Attorney</h4>
+            <div className="row">
+              <div className="small-12 medium-12 large-12 columns">
+                <div className="callout success textCenter">
+                  <h1>Welcome to Bacus Law</h1>
+                  <h4>Eric Bacus, Immigration Attorney</h4>
+                </div>
               </div>
             </div>
             <br></br>
@@ -35,6 +37,13 @@ export var AttorneyProfile = React.createClass({
               </div>
               <div className="small-6 medium-6 large-6 columns">
                 <Letter />
+              </div>
+            </div>
+            <div className="row">
+              <div className="small-12 medium-12 large-12 columns">
+                <div className="callout warning">
+                  <p>Eric Bacus graduated from The University of Texas Law School in 2013, and has focused exclusively on immigration law ever since.  He lives in the greater Houston area with his wife Angela and their two dogs. He is dedicated to his family and his clients.  He loves music, travelling, reading and cheering on the Houston Dynamo.</p>
+                </div>
               </div>
             </div>
           </div>
