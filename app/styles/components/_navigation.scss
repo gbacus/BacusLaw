@@ -19,6 +19,10 @@
   width: 100px;
 }
 
+.top-bar {
+  border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+}
+
 .mobilelogo {
   height: 80px;
   width: 170px;
@@ -53,7 +57,7 @@
 
 .topRight {
   text-align: center;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 2rem;
 }
 
 .top-bar{
@@ -65,14 +69,22 @@
 }
 
 .top-bar-right li{
-  padding-top: 17px;
-  padding-right: 2rem;
+    padding-top: 9px;
+    padding-right: 1rem;
+    font-size: 20px;
 }
 
-#nav-menu a:hover{
+#nav-menu .top-bar-left
+  & a:hover{
   font-weight: bold;
   text-decoration: none;
   color: #1779ba;
+}
+
+#nav-menu .top-bar-right
+  & a:hover{
+  font-weight: bold;
+  text-decoration: none;
 }
 
 

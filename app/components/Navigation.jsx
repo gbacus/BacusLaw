@@ -110,15 +110,15 @@ export var Navigation = React.createClass({
                   data-animation-duration={200}
                   data-bar-offset={60}
                   >
-                  <li><a href="#profile"><img
+                  <li><a href="#home"><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
                   </a></li>
+                  <li><a href='#home'>Home</a></li>
+                  <li><a href='#areas'>Practice Areas</a></li>
                   <li><a href='#profile'>Attorney Profile</a></li>
                   <li><a href='#contact'>Contact</a></li>
-                  <li><a href='#clients'>Detained Clients</a></li>
-                  <li><a href='#areas'>Practice Areas</a></li>
                 </ul>
               </div>
               <div className="top-bar-right">
@@ -142,15 +142,15 @@ export var Navigation = React.createClass({
             <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                  <li><a href="#profile"><img
+                  <li><a href="#home"><img
                     className='logo'
                     src='/assets/logo.jpg'
                     alt='logo' />
                   </a></li>
+                  <li><a href='#home'>Inicio</a></li>
+                  <li><a href='#areas'>Servicios</a></li>
                   <li><a href='#profile'>Perfil de Abogado</a></li>
                   <li><a href='#contact'>Contacto</a></li>
-                  <li><a href='#clients'>Clientes Detenidos</a></li>
-                  <li><a href='#areas'>Servicios</a></li>
                 </ul>
               </div>
               <div className="top-bar-right">

@@ -2,11 +2,11 @@
   width: 300px;
 }
 
-.thinBorder {
-  border: 1px solid black;
-}
+// .thinBorder {
+//   border: 1px solid black;
+// }
 
-.cardSection {
+.cardBox {
   width: 300px;
   &:hover {
     cursor: pointer;
@@ -16,4 +16,31 @@
       color: white;
     }
   }
+}
+
+.cardTop{
+  border-top: 1px solid rgba(10, 10, 10, 0.25);
+  border-left: 1px solid rgba(10, 10, 10, 0.25);
+  border-right: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+.cardMiddle{
+  border-left: 1px solid rgba(10, 10, 10, 0.25);
+  border-right: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+.cardBottom{
+  border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+  border-left: 1px solid rgba(10, 10, 10, 0.25);
+  border-right: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+.alert {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
 }

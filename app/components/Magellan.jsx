@@ -14,7 +14,10 @@ import Contacto from 'Contacto';
 import Clientes from 'Clientes';
 import Servicios from 'Servicios';
 import Navigation from 'Navigation';
+import Home from 'Home';
+import Inicio from 'Inicio';
 import Footer from 'Footer';
+import NachoPic from 'NachoPic';
 
 import BacusLawAPI from 'BacusLawAPI';
 
@@ -26,10 +29,11 @@ export var Magellan = React.createClass({
       return (
         <div>
           <Navigation />
+          <Home />
+          <PracticeAreas />
+          <NachoPic />
           <AttorneyProfile />
           <ContactUs />
-          <DetainedClients />
-          <PracticeAreas />
           <Footer />
         </div>
       )
@@ -37,10 +41,11 @@ export var Magellan = React.createClass({
       return (
         <div>
           <Navigation />
+          <Inicio />
+          <Servicios />
+          <NachoPic />
           <Perfil />
           <ContactUs />
-          <Clientes />
-          <Servicios />
           <Footer />
         </div>
       )

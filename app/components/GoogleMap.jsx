@@ -16,7 +16,7 @@ export var GoogleMap = React.createClass({
       var map;
       var mapOptions = {
         center: new google.maps.LatLng(29.765511,-95.304302),
-        zoom:11,
+        zoom:10,
         backgroundColor: "#000000",
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         scrollwheel: false

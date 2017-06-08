@@ -29,10 +29,10 @@ export var Footer = React.createClass({
                 data-animation-duration={200}
                 data-bar-offset={60}
                 >
+                <a href="#home" >Home</a>
+                <a href="#areas" >Practice Areas</a>
                 <a href="#profile" >Attorney Profile</a>
                 <a href="#contact" >Contact</a>
-                <a href="#clients" >Detained Clients</a>
-                <a href="#areas" >Practice Areas</a>
               </ul>
             </div>
 
@@ -42,7 +42,7 @@ export var Footer = React.createClass({
     } else {
       return (
         <footer>
-          <div className="wrap row small-up-1 medium-up-3">
+          <div className="wrap row small-up-1 medium-up-2">
             <div className="column">
               <h4>Información del Contacto</h4>
               <hr/>
@@ -59,19 +59,11 @@ export var Footer = React.createClass({
                 data-animation-duration={200}
                 data-bar-offset={60}
                 >
-                <a href="#profile" >Perfil de Abogado</a>
-                <a href="#contact" >Contacto</a>
-                <a href="#clients" >Clientes Detenidos</a>
+                <a href="#home" >Inicio</a>
                 <a href="#areas" >Servicios</a>
+                <a href="#profile" >Perfil de Abagado</a>
+                <a href="#contact" >Contacto</a>
               </ul>
-            </div>
-
-            <div className="column">
-              <h4>Redes Sociales</h4>
-              <hr/>
-              <a href="https://twitter.com/" target="_blank">Twitter</a>
-              <a href="https://www.linkedin.com/in/eric-bacus-8b08224/" target="_blank">LinkedIn</a>
-              <a href="https://lawyers.justia.com/lawyer/eric-bacus-1519976" target="_blank">Justia</a>
             </div>
 
           </div>

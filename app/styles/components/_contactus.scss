@@ -9,11 +9,29 @@
   margin: auto;
 }
 
-a[href]{
+// a[href]{
+//   color: black;
+//   &:hover {
+//     color: white;
+//     cursor: pointer;
+//     text-decoration: none;
+//   }
+// }
+
+.hoverContact {
   color: black;
+  a[href] {
+      text-decoration: none;
+      color: black;
+    }
   &:hover {
-    color: #1779ba;
+    color: white;
+    background-color: #1779ba;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
+    & a[href] {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
