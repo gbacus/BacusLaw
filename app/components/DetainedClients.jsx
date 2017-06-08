@@ -22,10 +22,12 @@ export var DetainedClients = React.createClass({
                 <a href="https://locator.ice.gov/odls/homePage.do" target="_blank">Please click here for further contact information</a>
               </div>
             </div>
+
           <br></br>
           <br></br>
           <br></br>
           <br></br>
+          <img className="pancho" src="/assets/pancho.jpg" alt="Services"/>
           <br></br>
           <br></br>
           <br></br>

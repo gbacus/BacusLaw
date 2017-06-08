@@ -9,7 +9,11 @@
 .cardSection {
   width: 300px;
   &:hover {
-    border: 2px solid $primary-color;
     cursor: pointer;
+    .card-divider {
+      font-weight: bold;
+      background-color: #1779ba;
+      color: white;
+    }
   }
 }
