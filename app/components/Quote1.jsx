@@ -18,3 +18,7 @@ export var Quote1 = React.createClass({
 })
 
 export default Redux.connect()(Quote1);
+
+
+
+// http://www.webmaster-source.com/2012/04/24/pure-css-blockquote-styling/
