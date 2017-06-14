@@ -17,7 +17,7 @@ export var ContactUs = React.createClass({
           <div className="callout small">
             <br></br>
               <div className="row">
-                <div className="small-6 medium-6 large-6 columns callout textcenter">
+                <div className="small-12 medium-12 large-12 columns callout textcenter">
                   <a href="mailto:eric@bacuslaw.com">
                     <div className="callout hoverContact" href="mailto:eric@bacuslaw.com">
                       <h4 className="textcenter">
@@ -40,14 +40,14 @@ export var ContactUs = React.createClass({
                     </div>
                   </a>
                 </div>
-
-                <div className="small-6 medium-6 large-6 columns">
-                  {/*<div className="small-6 medium-6 large-6 columns callout textcenter">
-                    <img className="imageResize" src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
-                  </div>*/}
+              </div>
+              <div className="row">
+                <div className="small-6 medium-6 large-6 columns callout textcenter">
+                  <img className="imageResize" src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
+                </div>
+                <div className="small-6 medium-6 large-6 columns callout textcenter">
                     <GoogleMap />
                 </div>
-
               </div>
           </div>
         </section>
