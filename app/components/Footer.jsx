@@ -14,7 +14,7 @@ export var Footer = React.createClass({
         <footer>
           <div className="wrap row small-up-1 medium-up-2">
             <div className="column">
-              <h4>Contact Info</h4>
+              <div>Contact Info</div>
               <hr/>
               <a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">11040 East Fwy</a>
               <a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">Houston, TX 77029</a>
@@ -22,7 +22,7 @@ export var Footer = React.createClass({
             </div>
 
             <div className="column">
-              <h4>Site Map</h4>
+              <div>Site Map</div>
               <hr/>
               <ul className="dropdown menu"
                 data-magellan

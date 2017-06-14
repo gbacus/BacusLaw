@@ -20,8 +20,13 @@ export var Home = React.createClass({
             <div className="row">
               <div className="small-12 medium-12 large-12 columns">
                 <div className="callout success textCenter">
-                  <h2>Welcome to Bacus Law</h2>
-                  <h4>Eric Bacus, Immigration Attorney</h4>
+                  <div>Welcome to</div>
+                  <div><img
+                    className='logoHeading'
+                    src='/assets/logo.jpg'
+                    alt='logo' />
+                  </div>
+                  <div>Eric Bacus, Immigration Attorney</div>
                 </div>
               </div>
             </div>
@@ -29,9 +34,9 @@ export var Home = React.createClass({
               <div className="small-5 medium-5 large-5 columns">
                 <img className="ericResize" src="/assets/eric.jpg" alt="Bacus Law Logo"/>
                 <div className="callout primary callToday">
-                  <h5>Call today for a free consultation.</h5>
-                  <h6 className="ital">Se Habla Español</h6>
-                  <h5><a className="boldNumber" href="tel:+1-832-910-7923">(832) 910-7923</a></h5>
+                  <div>Call today for a free consultation.</div>
+                  <div className="ital">Se Habla Español</div>
+                  <div><a className="boldNumber" href="tel:+1-832-910-7923">(832) 910-7923</a></div>
                 </div>
               </div>
               <div className="small-7 medium-7 large-7 columns">
