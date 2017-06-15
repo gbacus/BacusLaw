@@ -21,3 +21,15 @@ footer h4 {
 footer hr {
   margin: 10px 0;
 }
+
+.column
+  & a:hover {
+    font-weight: bold;
+  }
+
+// #nav-menu .top-bar-left
+//   & a:hover{
+//   font-weight: bold;
+//   text-decoration: none;
+//   color: #1779ba;
+// }

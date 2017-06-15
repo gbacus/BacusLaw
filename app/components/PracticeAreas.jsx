@@ -64,7 +64,7 @@ export var PracticeAreas = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox">
+              <div className="column cardBox" data-open="adjustmentofstatus">
                 <div className="card-divider cardTop">
                   Adjustment of Status
                 </div>
@@ -78,8 +78,8 @@ export var PracticeAreas = React.createClass({
 
             <br></br>
 
-            <div className="row small-up-1 medium-up-4" data-open="citizenship">
-              <div className="column cardBox">
+            <div className="row small-up-1 medium-up-4">
+              <div className="column cardBox" data-open="citizenship">
                 <div className="card-divider cardTop">
                   Citizenship
                 </div>
@@ -90,7 +90,7 @@ export var PracticeAreas = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox">
+              <div className="column cardBox" data-open="deferredAction">
                 <div className="card-divider cardTop">
                   Deferred Action
                 </div>
@@ -101,8 +101,8 @@ export var PracticeAreas = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox">
-                <div className="card-divider cardTop">
+              <div className="column cardBox" data-open="visa">
+                <div className="card-divider cardTop" >
                   Visa
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
@@ -112,8 +112,8 @@ export var PracticeAreas = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox">
-                <div className="card-divider cardTop">
+              <div className="column cardBox" data-open="immigrationappeals">
+                <div className="card-divider cardTop" >
                   Immigration Appeals
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
@@ -138,6 +138,38 @@ export var PracticeAreas = React.createClass({
           <div className="reveal" id="deportationDefense" data-reveal>
             <div>Deportation Defense</div>
             <p>If you have a case in Immigration Court, you have rights and you have obligations.  It is very important that you understand and exercise your rights, and that you understand and fulfill your obligations.  Every case is different, and your particular facts may make you eligible for various kinds of relief.  Bacus Law has extensive experience in preventing deportation as well as mitigating the negative effects of a deportation order. </p>
+            <button className="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div className="reveal" id="deferredAction" data-reveal>
+            <div>Deferred Action</div>
+            <p>Deferred Action Modal</p>
+            <button className="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div className="reveal" id="adjustmentofstatus" data-reveal>
+            <div>Adjustment of Status</div>
+            <p>Adjustment of Status Modal</p>
+            <button className="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div className="reveal" id="immigrationappeals" data-reveal>
+            <div>Immigration Appeals</div>
+            <p>Immigration Appeals Modal</p>
+            <button className="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div className="reveal" id="visa" data-reveal>
+            <div>Visa</div>
+            <p>Visa Modal</p>
             <button className="close-button" data-close aria-label="Close modal" type="button">
               <span aria-hidden="true">&times;</span>
             </button>
