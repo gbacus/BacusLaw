@@ -1,7 +1,7 @@
 import React from "react";
 import {Route, Router, IndexRoute, hashHistory} from "react-router";
-// import TodoApp from 'TodoApp';
-// import Login from 'Login';
+import English from 'English';
+import Espanol from 'Espanol';
 // import firebase from 'app/firebase/';
 
 
@@ -22,7 +22,7 @@ import {Route, Router, IndexRoute, hashHistory} from "react-router";
 // export default (
 //   <Router history={hashHistory}>
 //     <Route path="/">
-//       <Route path="esp" component={}/>
+//       <Route path="esp" component={Espanol}/>
 //       <IndexRoute component={}/>
 //     </Route>
 //   </Router>

@@ -125,6 +125,7 @@ export var Navigation = React.createClass({
                 <ul className="dropdown menu">
                   <li><a className='button' onClick={() => {
                     dispatch(actions.toggleLanguage())
+
                     }
                   }>En Español</a></li>
                   <li>

@@ -43,8 +43,13 @@
   color: red;
 }
 
-.bold {
+.boldRed {
   font-weight: bold;
   color: red;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
   text-decoration: underline;
 }

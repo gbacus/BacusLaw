@@ -23,6 +23,29 @@ import BacusLawAPI from 'BacusLawAPI';
 
 export var Magellan = React.createClass({
 
+  // componentDidUpdate: function(prevProps, prevState) {
+  //   var {nav} = this.props;
+  //   // only update chart if the data has changed
+  //   console.log("prevProps", prevProps);
+  //   console.log("prevState", prevState);
+  //   console.log("nav", nav);
+  //   if (prevProps.nav !== nav) {
+  //     return (
+  //       <div>
+  //         {this.renderMagellan()}
+  //       </div>
+  //     )
+  //   }
+  // },
+
+
+  // componentDidUpdate: function() {
+  //   console.log('Within componentDidUpdate');
+  //   return(
+  //     this.renderMagellan()
+  //   )
+  // },
+
   renderMagellan: function() {
     var {nav} = this.props;
     if (!nav) {
