@@ -16,7 +16,7 @@ export var NachoPic = React.createClass({
 
     return(
       <div className="callout small">
-        <img className="pancho" src="/assets/nancho.jpg" alt="Services"/>
+        <img className="nacho" src="/assets/nancho.jpg" alt="Services"/>
       </div>
     )
   }

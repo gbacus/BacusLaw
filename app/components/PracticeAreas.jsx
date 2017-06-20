@@ -16,6 +16,7 @@ export var PracticeAreas = React.createClass({
       <div className="sections">
         <section id="areas" data-magellan-target="areas">
           <div className="callout small">
+            <div className="sectionHeader">Practices Areas</div>
             <br></br>
             <div className="row small-up-1 medium-up-4">
 
@@ -24,44 +25,44 @@ export var PracticeAreas = React.createClass({
                 <div className="card-divider cardTop">
                   Asylum
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="detainedClients">
                 <div className="card-divider cardTop">
                   Detained Clients
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="deportationDefense">
                 <div className="card-divider cardTop">
                   Deportation Defense
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="familybasedcases">
                 <div className="card-divider cardTop">
                   Family-Based Cases
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -72,44 +73,44 @@ export var PracticeAreas = React.createClass({
                 <div className="card-divider cardTop">
                   Citizenship
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="reopeningacase">
                 <div className="card-divider cardTop">
                   Reopening a Case
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="victimsofcrime">
                 <div className="card-divider cardTop" >
                   Victims of Crime
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="appealingacase">
                 <div className="card-divider cardTop" >
                   Appealing a Case
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -197,6 +198,7 @@ export var PracticeAreas = React.createClass({
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+            <br></br>
           </div>
         </section>
       </div>

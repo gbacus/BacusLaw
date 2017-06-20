@@ -4,6 +4,7 @@
   display: block;
   margin: auto;
   border: 5px $light-gray solid;
+  border-radius: 25px;
 }
 
 .linkedInResize {
@@ -41,12 +42,15 @@
 }
 
 .ribbon {
-  background-color: #1779ba;
+  //background-color: #1779ba;
+  background-color: rgb(51, 92, 124);
   // position: relative;
   margin: 0 0 1rem 0;
   padding: 1rem;
 }
 
 .ribbonText {
-
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }

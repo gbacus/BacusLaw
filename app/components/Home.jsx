@@ -17,11 +17,14 @@ export var Home = React.createClass({
       <div className="sections">
         <section id="home" data-magellan-target="home">
                 <div className="ribbon textCenter">
-                  <div>Welcome to</div>
+                  {/*<div>Welcome to</div>
                   <div><img
                     className='logoHeading'
                     src='/assets/logo.jpg'
                     alt='logo' />
+                  </div>*/}
+                  <div className="ribbonText">
+                    Welcome to Bacus Law - An Immigration Law Firm
                   </div>
               </div>
           <div className="callout small main">

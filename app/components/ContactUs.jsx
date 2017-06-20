@@ -15,6 +15,7 @@ export var ContactUs = React.createClass({
       <div className="sections">
         <section id="contact" data-magellan-target="contact">
           <div className="callout small">
+            <div className="sectionHeader">Contact Information</div>
             <br></br>
               <div className="row">
                 <div className="small-12 medium-12 large-12 columns callout textcenter">

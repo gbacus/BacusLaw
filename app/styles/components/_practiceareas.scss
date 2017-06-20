@@ -12,7 +12,7 @@
     cursor: pointer;
     .card-divider {
       font-weight: bold;
-      background-color: #1779ba;
+      background-color: rgb(51, 92, 124);
       color: white;
     }
   }
@@ -22,6 +22,10 @@
   border-top: 1px solid rgba(10, 10, 10, 0.25);
   border-left: 1px solid rgba(10, 10, 10, 0.25);
   border-right: 1px solid rgba(10, 10, 10, 0.25);
+  //take out bottom border and border radius when using image in card
+  border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+  border-radius: 25px;
+  text-align: center;
 }
 
 .cardMiddle{

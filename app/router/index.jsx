@@ -1,32 +1,29 @@
-// import React from "react";
-// import {Route, Router, IndexRoute, hashHistory} from "react-router";
-// import AttorneyProfile from 'AttorneyProfile';
-// import ContactUs from 'ContactUs';
-// import DetainedClients from 'DetainedClients';
-// import PracticeAreas from 'PracticeAreas';
-// import Perfil from 'Perfil';
-// import Contacto from 'Contacto';
-// import Clientes from 'Clientes';
-// import Servicios from 'Servicios';
-// import Navigation from 'Navigation';
-// import Magellan from 'Magellan';
+import React from "react";
+import {Route, Router, IndexRoute, hashHistory} from "react-router";
+// import TodoApp from 'TodoApp';
+// import Login from 'Login';
+// import firebase from 'app/firebase/';
 
+
+// var requireLogin = (nextState, replace, next) => {
+//   if (!firebase.auth().currentUser) {
+//     replace('/');
+//   }
+//   next();
+// };
+
+// var redirectIfLoggedIn = (nextState, replace, next) => {
+//   if (firebase.auth().currentUser) {
+//     replace('/todos');
+//   }
+//   next();
+// };
 
 // export default (
-
 //   <Router history={hashHistory}>
 //     <Route path="/">
-//       {<Route path="profile" component={AttorneyProfile} />
-//       <Route path="contact" component={ContactUs} />
-//       <Route path="clients" component={DetainedClients} />
-//       <Route path="areas" component={PracticeAreas} />
-//       <Route path="perfil" component={Perfil} />
-//       <Route path="contacto" component={Contacto} />
-//       <Route path="clientes" component={Clientes} />
-//       <Route path="servicios" component={Servicios} />}
-//       <IndexRoute component={Magellan} />
-
-//       {/*<IndexRoute component={AttorneyProfile} />*/}
+//       <Route path="esp" component={}/>
+//       <IndexRoute component={}/>
 //     </Route>
 //   </Router>
 // )

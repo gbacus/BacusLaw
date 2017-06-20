@@ -24,7 +24,6 @@ export var Carta = React.createClass({
 
         <p>
           Sinceramente, <br />
-          -signature- <br />
           Eric Bacus <br />
         </p>
       </div>

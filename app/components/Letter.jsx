@@ -24,7 +24,6 @@ export var Letter = React.createClass({
 
         <p>
           Sincerely, <br />
-          -signature- <br />
           Eric Bacus <br />
         </p>
       </div>

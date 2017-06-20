@@ -16,6 +16,7 @@ export var Servicios = React.createClass({
       <div className="sections">
         <section id="areas" data-magellan-target="areas">
           <div className="callout small">
+          <div className="sectionHeader">Servicios</div>
             <br></br>
             <div className="row small-up-1 medium-up-4">
 
@@ -24,44 +25,44 @@ export var Servicios = React.createClass({
                 <div className="card-divider cardTop">
                   Asilo
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="clientesdetenidos">
                 <div className="card-divider cardTop">
                   Clientes Detenidos
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="defensadedeportacion">
                 <div className="card-divider cardTop">
                   Defensa de Deportación
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="casosbasadosenlafamilia">
                 <div className="card-divider cardTop">
                   Casos Basados en la Familia
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -72,44 +73,44 @@ export var Servicios = React.createClass({
                 <div className="card-divider cardTop">
                   Ciudadanía
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="reabriruncaso">
                 <div className="card-divider cardTop">
                   Reabrir un Caso
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="victimas">
                 <div className="card-divider cardTop" >
                   Las Victimas de Crimen
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
 
               <div className="column cardBox" data-open="apelacion">
                 <div className="card-divider cardTop" >
                   La Apelación de un Caso
                 </div>
-                <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
+                {/*<img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
                   <div>This is a card.</div>
                   <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -119,7 +120,7 @@ export var Servicios = React.createClass({
             <div className="reveal" id="asilo" data-reveal>
               <div>Asilo</div>
               <br></br>
-              <p>Si usted tiene miedo de regresar a su país por causa de persecución o maltratamiento, tiene el derecho pedir protección al gobierno de los Estados Unidos.  Esto es cierto también si usted está en los Estados Unidos sin autorización ó si usted tiene história criminal.  Bacus Law tiene mucha experiencia en los casos del asilo para personas de todo el mundo.  Si esto es su caso, por favor contácteme lo más pronto posible, ya que puede perder opciones si espera demasiado tiempo.</p>
+              <p>Si usted tiene miedo de regresar a su país por causa de persecución o maltratamiento, tiene el derecho pedir protección al gobierno de los Estados Unidos.  Esto es cierto también si usted está en los Estados Unidos sin autorización o si usted tiene história criminal.  Bacus Law tiene mucha experiencia en los casos del asilo para personas de todo el mundo.  Si esto es su caso, por favor contácteme lo más pronto posible, ya que puede perder opciones si espera demasiado tiempo.</p>
               <button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -128,13 +129,13 @@ export var Servicios = React.createClass({
             <div className="reveal" id="clientesdetenidos" data-reveal>
               <div>Clientes Detenidos</div>
               <br></br>
-              <p>Tener un ser querido detenido por el “Immigration and Customs Enforcement” (ICE) es traumático y confuso para toda la familia. Puede ser difícil obtener información básica sobre dónde está, qué derechos tiene y cómo puedan ayudarle. También puede ser difícil determinar cuánto tiempo tiene que ser detenidos ó si tiene derecho a pelear su caso.</p>
+              <p>Tener un ser querido detenido por el “Immigration and Customs Enforcement” (ICE) es traumático y confuso para toda la familia. Puede ser difícil obtener información básica sobre dónde está, qué derechos tiene y cómo puedan ayudarle. También puede ser difícil determinar cuánto tiempo tiene que ser detenidos o si tiene derecho a pelear su caso.</p>
 
               <p>La Fianza y el Parole</p>
 
-              <p>Si un ser querido está detenido por "Immigration and Customs Enforcement" (ICE), puede ser elegible para salir de detención antes de que su caso termine. Normalmente se hace esto por pedir una fianza ó en ciertos casos, “parole” (libertad condicional). Si a un detenido se le ofrece una fianza, se le permite salir de la detención después de que alguien le diga pagado al gobierno para asegurarse que el individuo asistirá a todas las audiencias futuras sobre su caso. Si a un detenido se le ofrece parole, no se necesita dinero.</p>
+              <p>Si un ser querido está detenido por "Immigration and Customs Enforcement" (ICE), puede ser elegible para salir de detención antes de que su caso termine. Normalmente se hace esto por pedir una fianza o en ciertos casos, “parole” (libertad condicional). Si a un detenido se le ofrece una fianza, se le permite salir de la detención después de que alguien le diga pagado al gobierno para asegurarse que el individuo asistirá a todas las audiencias futuras sobre su caso. Si a un detenido se le ofrece parole, no se necesita dinero.</p>
 
-              <p>Pedir una fianza ó parole puede ser complicado y el gobierno generalmente requiere pruebas para demostrar que el detenido no es un peligro a la sociedad o que no va asistir a futuras audiencias. Si un detenido es elegible para una fianza o parole, Bacus Law puede ayudar a maximizar las posibilidades de que se le ofrezcan este alivio de la manera más rápida y barata posible.</p>
+              <p>Pedir una fianza o parole puede ser complicado y el gobierno generalmente requiere pruebas para demostrar que el detenido no es un peligro a la sociedad o que no va asistir a futuras audiencias. Si un detenido es elegible para una fianza o parole, Bacus Law puede ayudar a maximizar las posibilidades de que se le ofrezcan este alivio de la manera más rápida y barata posible.</p>
 
               <p>Bacus Law tiene mucha experiencia en dar consejos y representación legal de personas detenidas por ICE.</p>
 
@@ -147,7 +148,7 @@ export var Servicios = React.createClass({
             <div className="reveal" id="defensadedeportacion" data-reveal>
               <div>Defensa de Deportación</div>
               <br></br>
-              <p>Si usted tiene un caso en la Corte de Inmigración, usted tiene derechos y obligaciones. Es muy importante que entienda y ejerze sus derechos, y cumpla sus obligaciones. Cada caso es diferente y sus hechos particulares pueden hacerle elegible para varios tipos de alivio. Bacus Law tiene mucha experiencia en la prevención de la deportación, así como en la mitigación de los efectos negativos de una orden de deportación. </p>
+              <p>Si usted tiene un caso en la Corte de Inmigración, usted tiene derechos y obligaciones. Es muy importante que entienda y ejerce sus derechos, y cumpla sus obligaciones. Cada caso es diferente y sus hechos particulares pueden hacerle elegible para varios tipos de alivio. Bacus Law tiene mucha experiencia en la prevención de la deportación, así como en la mitigación de los efectos negativos de una orden de deportación. </p>
               <button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -174,7 +175,7 @@ export var Servicios = React.createClass({
             <div className="reveal" id="reabriruncaso" data-reveal>
               <div>Reabrir un Caso</div>
               <br></br>
-              <p>Aún después de un caso ser cerrado, puede ser posible reabrirlo. Por ejemplo, usted puede haber tenido una excusa fuerte para no presentarse a una audiencia ó tal vez sus circunstancias familiares hayan cambiado ó las cosas en su país empeorado. Bacus Law puede analizar su situación específica y si es aconsejable, le ayudará a solicitar a la corte una nueva audiencia.</p>
+              <p>Aún después de un caso ser cerrado, puede ser posible reabrirlo. Por ejemplo, usted puede haber tenido una excusa fuerte para no presentarse a una audiencia o tal vez sus circunstancias familiares hayan cambiado o las cosas en su país empeorado. Bacus Law puede analizar su situación específica y si es aconsejable, le ayudará a solicitar a la corte una nueva audiencia.</p>
               <button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -192,11 +193,12 @@ export var Servicios = React.createClass({
             <div className="reveal" id="apelacion" data-reveal>
               <div>La Apelación de un Caso</div>
               <br></br>
-              <p>Si usted pierde su caso en la Corte de Inmigración, todavía tiene la opción de apelar. La Junta de Apelaciones de Inmigración (BIA) revisa las decisiones de los jueces de inmigración, y en ocasiones corrige ó revierte una decisión tomada por un juez. Debido a los plazos estrictos involucrados en apelar a la BIA, por favor comuníquese con Bacus Law tan pronto como sea posible si está interesado en apelar su caso.</p>
+              <p>Si usted pierde su caso en la Corte de Inmigración, todavía tiene la opción de apelar. La Junta de Apelaciones de Inmigración (BIA) revisa las decisiones de los jueces de inmigración, y en ocasiones corrige o revierte una decisión tomada por un juez. Debido a los plazos estrictos involucrados en apelar a la BIA, por favor comuníquese con Bacus Law tan pronto como sea posible si está interesado en apelar su caso.</p>
               <button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+            <br></br>
           </div>
         </section>
       </div>
