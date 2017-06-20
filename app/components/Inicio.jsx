@@ -31,7 +31,7 @@ export var Home = React.createClass({
           <div className="callout small main">
             <div className="row">
               <div className="small-5 medium-5 large-5 columns">
-                <img className="ericResize" src="/assets/eric.jpg" alt="Bacus Law Logo"/>
+                <img className="ericResize" id="ericPhoto" src="/assets/eric.jpg" alt="Bacus Law Logo"/>
                 <div className="callToday">
                   <div>Eric Bacus, Abogado de Inmigración</div>
                   <br></br>

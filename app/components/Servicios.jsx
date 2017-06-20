@@ -121,9 +121,9 @@ export var Servicios = React.createClass({
               <div className="bold">Asilo</div>
               <br></br>
               <p>Si usted tiene miedo de regresar a su país por causa de persecución o maltratamiento, tiene el derecho pedir protección al gobierno de los Estados Unidos.  Esto es cierto también si usted está en los Estados Unidos sin autorización o si usted tiene história criminal.  Bacus Law tiene mucha experiencia en los casos del asilo para personas de todo el mundo.  Si esto es su caso, por favor contácteme lo más pronto posible, ya que puede perder opciones si espera demasiado tiempo.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="clientesdetenidos" data-reveal>
@@ -140,63 +140,63 @@ export var Servicios = React.createClass({
               <p>Bacus Law tiene mucha experiencia en dar consejos y representación legal de personas detenidas por ICE.</p>
 
               <p className="alert">Si un ser querido es detenido por ICE, por favor hábleme al <a className="boldRed" href="tel:+1-832-910-7923">(832) 910-7923</a> tan pronto posible para una consulta gratis sobre lo que se puede hacer para ayudarle. También puede localizarle usando el <a className="boldRed" href="https://locator.ice.gov/odls/homePage.do" target="_blank">Sistema de Localización de Detenidos.</a></p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="defensadedeportacion" data-reveal>
               <div className="bold">Defensa de Deportación</div>
               <br></br>
               <p>Si usted tiene un caso en la Corte de Inmigración, usted tiene derechos y obligaciones. Es muy importante que entienda y ejerce sus derechos, y cumpla sus obligaciones. Cada caso es diferente y sus hechos particulares pueden hacerle elegible para varios tipos de alivio. Bacus Law tiene mucha experiencia en la prevención de la deportación, así como en la mitigación de los efectos negativos de una orden de deportación. </p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="casosbasadosenlafamilia" data-reveal>
               <div className="bold">Casos Basados en la Familia</div>
               <br></br>
               <p>La ley de inmigración puede permitir que una persona viva en los Estados Unidos en base a su relación con un ciudadano o con un residente permanente legal (alguien que tiene una “green card,” o tarjeta verde). A veces una persona que entró al país sin autorización puede convertirse en residente permanente a través de un miembro de la familia. Si usted está interesado en convertirse en un residente permanente legal y tiene un familiar que vive legalmente en los Estados Unidos, Bacus Law puede darle consejo y representación a lo largo de este proceso complejo.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
              <div className="reveal" id="ciudadania" data-reveal>
               <div className="bold">Ciudadanía</div>
               <br></br>
               <p>Después de alguien ser un residente permanente legal por un período de tiempo, a menudo pueden solicitar la ciudadanía de los Estados Unidos. Convertirse en un ciudadano tiene muchos beneficios, incluyendo la capacidad de votar. Sin embargo, el proceso es complejo y en algunas situaciones la solicitud de la ciudadanía puede causar inadvertidamente a la deportación - por ejemplo, si el solicitante tiene una história criminal particular. Bacus Law le puede ayudar entender el proceso de la solicitud de ciudadanía, dar consejos sobre cómo solicitarlo y representarle ante al gobierno para asegurar que su solicitud de ciudadanía sea lo más fácil posible. </p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="reabriruncaso" data-reveal>
               <div className="bold">Reabrir un Caso</div>
               <br></br>
               <p>Aún después de un caso ser cerrado, puede ser posible reabrirlo. Por ejemplo, usted puede haber tenido una excusa fuerte para no presentarse a una audiencia o tal vez sus circunstancias familiares hayan cambiado o las cosas en su país empeorado. Bacus Law puede analizar su situación específica y si es aconsejable, le ayudará a solicitar a la corte una nueva audiencia.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="victimas" data-reveal>
               <div className="bold">Las Victimas de Crimen</div>
               <br></br>
               <p>Si usted ha sido víctima de un crimen en los Estados Unidos, puede ser elegible para ciertas visas específicamente para las personas en su situación. Esto es especialmente cierto si usted cooperó con la policía. Póngase en contacto con Bacus Law para hablar de su situación.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
 
             <div className="reveal" id="apelacion" data-reveal>
               <div className="bold">La Apelación de un Caso</div>
               <br></br>
               <p>Si usted pierde su caso en la Corte de Inmigración, todavía tiene la opción de apelar. La Junta de Apelaciones de Inmigración (BIA) revisa las decisiones de los jueces de inmigración, y en ocasiones corrige o revierte una decisión tomada por un juez. Debido a los plazos estrictos involucrados en apelar a la BIA, por favor comuníquese con Bacus Law tan pronto como sea posible si está interesado en apelar su caso.</p>
-              <button className="close-button" data-close aria-label="Close modal" type="button">
+              {/*<button className="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
-              </button>
+              </button>*/}
             </div>
             <br></br>
           </div>
