@@ -141,7 +141,11 @@ export var Navigation = React.createClass({
           <div data-sticky-container>
             <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
-                <ul className="dropdown menu" data-dropdown-menu>
+                <ul className="dropdown menu"
+                  data-magellan
+                  data-animation-duration={200}
+                  data-bar-offset={60}
+                  >
                   <li><a href="#home"><img
                     className='logo'
                     src='/assets/logo.jpg'

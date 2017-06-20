@@ -20,9 +20,9 @@ export var Servicios = React.createClass({
             <div className="row small-up-1 medium-up-4">
 
 
-              <div className="column cardBox" data-open="asylum">
+              <div className="column cardBox" data-open="asilo">
                 <div className="card-divider cardTop">
-                  Asylum
+                  Asilo
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -31,20 +31,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              {/*<div className="column cardBox">
-                <div className="card-divider">
-                  Imigration Bond
-                </div>
-                <img src="/assets/StockPhoto.jpg"/>
-                <div className="card-section">
-                  <div>This is a card.</div>
-                  <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                </div>
-              </div>*/}
-
-              <div className="column cardBox" data-open="detainedClients">
+              <div className="column cardBox" data-open="clientesdetenidos">
                 <div className="card-divider cardTop">
-                  Detained Clients
+                  Clientes Detenidos
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -53,9 +42,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox" data-open="deportationDefense">
+              <div className="column cardBox" data-open="defensadedeportacion">
                 <div className="card-divider cardTop">
-                  Deportation Defense
+                  Defensa de Deportación
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -64,9 +53,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox" data-open="adjustmentofstatus">
+              <div className="column cardBox" data-open="casosbasadosenlafamilia">
                 <div className="card-divider cardTop">
-                  Adjustment of Status
+                  Casos Basados en la Familia
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -79,9 +68,9 @@ export var Servicios = React.createClass({
             <br></br>
 
             <div className="row small-up-1 medium-up-4">
-              <div className="column cardBox" data-open="citizenship">
+              <div className="column cardBox" data-open="ciudadania">
                 <div className="card-divider cardTop">
-                  Citizenship
+                  Ciudadanía
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -90,9 +79,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox" data-open="deferredAction">
+              <div className="column cardBox" data-open="reabriruncaso">
                 <div className="card-divider cardTop">
-                  Deferred Action
+                  Reabrir un Caso
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -101,9 +90,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox" data-open="visa">
+              <div className="column cardBox" data-open="victimas">
                 <div className="card-divider cardTop" >
-                  Visa
+                  Las Victimas de Crimen
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -112,9 +101,9 @@ export var Servicios = React.createClass({
                 </div>
               </div>
 
-              <div className="column cardBox" data-open="immigrationappeals">
+              <div className="column cardBox" data-open="apelacion">
                 <div className="card-divider cardTop" >
-                  Immigration Appeals
+                  La Apelación de un Caso
                 </div>
                 <img className="cardMiddle" src="/assets/StockPhoto.jpg"/>
                 <div className="card-section cardBottom">
@@ -127,81 +116,87 @@ export var Servicios = React.createClass({
 
           {/*MODALS*/}
 
-          <div className="reveal" id="asylum" data-reveal>
-            <div>Asylum</div>
-            <p>If you are scared of being harmed or mistreated in your home country, you have the right to ask the United States government for protection.  You have this right even if you are in the country without authorization, or have a criminal history.  Bacus Law has extensive experience in handling asylum cases for people from all over the world.  If you are scared to return to your home country, please get in touch as soon as possible.  There are deadlines associated with asylum cases that may affect the type of relief for which you qualify. </p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+            <div className="reveal" id="asilo" data-reveal>
+              <div>Asilo</div>
+              <br></br>
+              <p>Si usted tiene miedo de regresar a su país por causa de persecución o maltratamiento, tiene el derecho pedir protección al gobierno de los Estados Unidos.  Esto es cierto también si usted está en los Estados Unidos sin autorización ó si usted tiene história criminal.  Bacus Law tiene mucha experiencia en los casos del asilo para personas de todo el mundo.  Si esto es su caso, por favor contácteme lo más pronto posible, ya que puede perder opciones si espera demasiado tiempo.</p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-          <div className="reveal" id="deportationDefense" data-reveal>
-            <div>Deportation Defense</div>
-            <p>If you have a case in Immigration Court, you have rights and you have obligations.  It is very important that you understand and exercise your rights, and that you understand and fulfill your obligations.  Every case is different, and your particular facts may make you eligible for various kinds of relief.  Bacus Law has extensive experience in preventing deportation as well as mitigating the negative effects of a deportation order. </p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+            <div className="reveal" id="clientesdetenidos" data-reveal>
+              <div>Clientes Detenidos</div>
+              <br></br>
+              <p>Tener un ser querido detenido por el “Immigration and Customs Enforcement” (ICE) es traumático y confuso para toda la familia. Puede ser difícil obtener información básica sobre dónde está, qué derechos tiene y cómo puedan ayudarle. También puede ser difícil determinar cuánto tiempo tiene que ser detenidos ó si tiene derecho a pelear su caso.</p>
 
-          <div className="reveal" id="deferredAction" data-reveal>
-            <div>Deferred Action</div>
-            <p>Deferred Action Modal</p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+              <p>La Fianza y el Parole</p>
 
-          <div className="reveal" id="adjustmentofstatus" data-reveal>
-            <div>Adjustment of Status</div>
-            <p>Adjustment of Status Modal</p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+              <p>Si un ser querido está detenido por "Immigration and Customs Enforcement" (ICE), puede ser elegible para salir de detención antes de que su caso termine. Normalmente se hace esto por pedir una fianza ó en ciertos casos, “parole” (libertad condicional). Si a un detenido se le ofrece una fianza, se le permite salir de la detención después de que alguien le diga pagado al gobierno para asegurarse que el individuo asistirá a todas las audiencias futuras sobre su caso. Si a un detenido se le ofrece parole, no se necesita dinero.</p>
 
-          <div className="reveal" id="immigrationappeals" data-reveal>
-            <div>Immigration Appeals</div>
-            <p>Immigration Appeals Modal</p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+              <p>Pedir una fianza ó parole puede ser complicado y el gobierno generalmente requiere pruebas para demostrar que el detenido no es un peligro a la sociedad o que no va asistir a futuras audiencias. Si un detenido es elegible para una fianza o parole, Bacus Law puede ayudar a maximizar las posibilidades de que se le ofrezcan este alivio de la manera más rápida y barata posible.</p>
 
-          <div className="reveal" id="visa" data-reveal>
-            <div>Visa</div>
-            <p>Visa Modal</p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+              <p>Bacus Law tiene mucha experiencia en dar consejos y representación legal de personas detenidas por ICE.</p>
 
-           <div className="reveal" id="citizenship" data-reveal>
-            <div>Citizenship</div>
-            <p>After someone has been a legal permanent resident for a period of time, often they can apply for US citizenship.  Becoming a citizen has many benefits, including the ability to vote and run for certain elected offices.  However, the process is complex, and in some situations applying for citizenship can inadvertently lead to deportation - for example, if the applicant has a particular criminal history.  Bacus Law can help you understand the process of applying for citizenship, provide advice on how to apply, and represent you before the government to ensure your citizenship application goes as smoothly as possible. </p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+              <p className="alert">Si un ser querido es detenido por ICE, por favor hableme al (832) 910-7923 tan pronto posible para una consulta gratis sobre lo que se puede hacer para ayudarle. También puede localizarle usando el <a className="bold" href="https://locator.ice.gov/odls/homePage.do" target="_blank">Sistema de Localización de Detenidos.</a></p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-          <div className="reveal" id="detainedClients" data-reveal>
-            <div>Detained Clients</div>
-            <p>Having a loved one detained by Immigration and Customs Enforcement (ICE) is traumatic and confusing for the entire family.  It may be difficult to get even basic information about where they are, what rights they have, and how you can help them.  It can also be difficult to determine how long they may have to be detained, and if they are entitled to apply for relief.</p>
+            <div className="reveal" id="defensadedeportacion" data-reveal>
+              <div>Defensa de Deportación</div>
+              <br></br>
+              <p>Si usted tiene un caso en la Corte de Inmigración, usted tiene derechos y obligaciones. Es muy importante que entienda y ejerze sus derechos, y cumpla sus obligaciones. Cada caso es diferente y sus hechos particulares pueden hacerle elegible para varios tipos de alivio. Bacus Law tiene mucha experiencia en la prevención de la deportación, así como en la mitigación de los efectos negativos de una orden de deportación. </p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-            <p>Bond and parole.</p>
+            <div className="reveal" id="casosbasadosenlafamilia" data-reveal>
+              <div>Casos Basados en la Familia</div>
+              <br></br>
+              <p>La ley de inmigración puede permitir que una persona viva en los Estados Unidos en base a su relación con un ciudadano o con un residente permanente legal (alguien que tiene una “green card,” o tarjeta verde). A veces una persona que entró al país sin autorización puede convertirse en residente permanente a través de un miembro de la familia. Si usted está interesado en convertirse en un residente permanente legal y tiene un familiar que vive legalmente en los Estados Unidos, Bacus Law puede darle consejo y representación a lo largo de este proceso complejo.</p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-            <p>  If a loved one is detained by Immigration and Customs Enforcement (ICE), they may be eligible to be released before their case has been resolved.  This is generally done by asking for a bond, or, in certain cases, parole.   If a detainee is offered bond, he or she is allowed to leave detention after someone gives money to the government to ensure they will attend future hearings on their case.  If a detainee is offered parole, no money is needed.</p>
+             <div className="reveal" id="ciudadania" data-reveal>
+              <div>Ciudadanía</div>
+              <br></br>
+              <p>Después de alguien ser un residente permanente legal por un período de tiempo, a menudo pueden solicitar la ciudadanía de los Estados Unidos. Convertirse en un ciudadano tiene muchos beneficios, incluyendo la capacidad de votar. Sin embargo, el proceso es complejo y en algunas situaciones la solicitud de la ciudadanía puede causar inadvertidamente a la deportación - por ejemplo, si el solicitante tiene una história criminal particular. Bacus Law le puede ayudar entender el proceso de la solicitud de ciudadanía, dar consejos sobre cómo solicitarlo y representarle ante al gobierno para asegurar que su solicitud de ciudadanía sea lo más fácil posible. </p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-            <p>Requesting bond and parole can be complicated, and the government usually requires evidence to demonstrate the detainee is not a danger to society or at risk of not attending future hearings.  If a detainee is eligible for bond or parole, Bacus Law can help maximize the chances he or she is offered this relief as quickly and cheaply as possible.</p>
+            <div className="reveal" id="reabriruncaso" data-reveal>
+              <div>Reabrir un Caso</div>
+              <br></br>
+              <p>Aún después de un caso ser cerrado, puede ser posible reabrirlo. Por ejemplo, usted puede haber tenido una excusa fuerte para no presentarse a una audiencia ó tal vez sus circunstancias familiares hayan cambiado ó las cosas en su país empeorado. Bacus Law puede analizar su situación específica y si es aconsejable, le ayudará a solicitar a la corte una nueva audiencia.</p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-            <p>Bacus Law has extensive experience in providing advice and legal representation for people detained by ICE.</p>
+            <div className="reveal" id="victimas" data-reveal>
+              <div>Las Victimas de Crimen</div>
+              <br></br>
+              <p>Si usted ha sido víctima de un crimen en los Estados Unidos, puede ser elegible para ciertas visas específicamente para las personas en su situación. Esto es especialmente cierto si usted cooperó con la policía. Póngase en contacto con Bacus Law para hablar de su situación.</p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
 
-            <p className="alert">If a loved one is detained by ICE, please call (832) 910-7923 as soon as possible for a free consultation on what can be done to help them.  You may also be able to locate them using this <a className="bold" href="https://locator.ice.gov/odls/homePage.do" target="_blank">Online Detainee Locator System.</a></p>
-            <button className="close-button" data-close aria-label="Close modal" type="button">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-
+            <div className="reveal" id="apelacion" data-reveal>
+              <div>La Apelación de un Caso</div>
+              <br></br>
+              <p>Si usted pierde su caso en la Corte de Inmigración, todavía tiene la opción de apelar. La Junta de Apelaciones de Inmigración (BIA) revisa las decisiones de los jueces de inmigración, y en ocasiones corrige ó revierte una decisión tomada por un juez. Debido a los plazos estrictos involucrados en apelar a la BIA, por favor comuníquese con Bacus Law tan pronto como sea posible si está interesado en apelar su caso.</p>
+              <button className="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
           </div>
         </section>
       </div>

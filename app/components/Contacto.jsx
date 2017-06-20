@@ -35,7 +35,7 @@ export var Contacto = React.createClass({
                   </div>
                   <a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">
                     <div className="callout hoverContact">
-                      <div>Located in Gonzalez Family Medicine Building</div>
+                      <div>Ubicado en Gonzalez Family Medicine</div>
                       <div><FaMapMarker className="FaMapMarker"/> 11040 East Fwy, Houston, TX 77029</div>
                     </div>
                   </a>

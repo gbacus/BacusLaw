@@ -3,6 +3,7 @@ import * as Redux from 'react-redux';
 import Navigation from 'Navigation';
 import Footer from 'Footer';
 import Letter from 'Letter';
+import Carta from 'Carta';
 
 
 //import * as actions from 'actions';
@@ -37,7 +38,7 @@ export var Home = React.createClass({
                 </div>
               </div>
               <div className="small-7 medium-7 large-7 columns">
-                <Letter />
+                <Carta />
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ export var Perfil = React.createClass({
                 <div className="row">
                     <div className="small-12 medium-12 large-12 columns">
                         <div className="callout warning">
-                            <p>Eric Bacus graduated from The University of Texas Law School in 2013, and has focused exclusively on immigration law ever since.  He lives in the greater Houston area with his wife Angela and their two dogs. He is dedicated to his family and his clients.  He loves music, travelling, reading and cheering on the Houston Dynamo.</p>
+                            <p>Eric Bacus se graduó de la Facultad de Derechos de la Universidad de Texas en 2013 y se ha enfocado exclusivamente en la ley de inmigración desde entonces. Vive en el área metropolitana de Houston con su esposa Angela y sus dos perros. Se dedica a su familia y sus clientes. Le encanta la música, viajar, leer y es fan del Houston Dynamo.</p>
                         </div>
                     </div>
                 </div>
