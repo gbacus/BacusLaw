@@ -14,8 +14,9 @@ export var Perfil = React.createClass({
     return(
 
       <div className="sections">
+        <br></br>
         <section id="profile" data-magellan-target="profile">
-            <div className="callout small">
+            <div>
             <div className="sectionHeader">Perfil de Abogado</div>
                 <br></br>
                 <div className="row">

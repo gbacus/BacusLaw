@@ -15,7 +15,7 @@ export var Servicios = React.createClass({
 
       <div className="sections">
         <section id="areas" data-magellan-target="areas">
-          <div className="callout small">
+          <div>
           <div className="sectionHeader">Servicios</div>
             <br></br>
             <div className="row small-up-1 medium-up-4">

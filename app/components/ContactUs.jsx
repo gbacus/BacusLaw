@@ -13,12 +13,13 @@ export var ContactUs = React.createClass({
 
     return(
       <div className="sections">
+        <br></br>
         <section id="contact" data-magellan-target="contact">
-          <div className="callout small">
+          <div>
             <div className="sectionHeader">Contact Information</div>
             <br></br>
               <div className="row">
-                <div className="small-12 medium-12 large-12 columns callout textcenter">
+                <div className="small-12 medium-12 large-12 columns textcenter">
                   <a href="mailto:eric@bacuslaw.com">
                     <div className="callout hoverContact" href="mailto:eric@bacuslaw.com">
                       <div className="textcenter">
