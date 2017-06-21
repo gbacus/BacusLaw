@@ -5,12 +5,19 @@ $secondary-color:#ff9800;
 $background-color:#eee;
 $normal-text-color:#111;
 
+// Color Scheme
+$oneScheme: #EAEBED;
+$twoScheme: #006989;
+$threeScheme: #A3BAC3;
+$fourScheme: #007090;
+$fiveScheme: #01A7C2;
+
 html,
 body{
   width:100%;
   height:100%;
-  //background: $background-color;
-  background: white;
+  background: $background-color;
+  //background: white;
   margin:0;
   border:0;
   color:$normal-text-color;

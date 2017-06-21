@@ -20,7 +20,7 @@ export var AttorneyProfile = React.createClass({
                 <br></br>
                 <div className="row">
                     <div className="small-12 medium-12 large-12 columns">
-                        <div className="callout warning">
+                        <div className="callout blueBox">
                             <p>Eric Bacus graduated from The University of Texas Law School in 2013, and has focused exclusively on immigration law ever since.  He lives in the greater Houston area with his wife Angela and their two dogs. He is dedicated to his family and his clients.  He loves music, travelling, reading and cheering on the Houston Dynamo.</p>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ export var Carta = React.createClass({
   render() {
 
     return(
-      <div className="callout secondary letter">
+      <div className="callout letter">
         <p>Gracias por su interés en Bacus Law.  Yo tengo la pasión por ayudar al quien tenga que interactuar con el sistema de inmigración de los Estados Unidos.  Yo le daría consejos legales y representación con excelencia y compasión.</p>
 
         <p>Si usted escoge trabajar conmigo, yo hiciera todo lo posible para asegurar que usted, el cliente,</p>

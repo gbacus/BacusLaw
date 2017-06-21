@@ -13,7 +13,7 @@ export var Footer = React.createClass({
     if (!nav) {
       return (
         <footer>
-          <div className="wrap row small-up-1 medium-up-2">
+          <div className="wrap row small-up-1 medium-up-3">
             <div className="column">
               <div>Contact Information</div>
               <hr/>
@@ -40,13 +40,20 @@ export var Footer = React.createClass({
               </ul>
             </div>
 
+            <div className="column">
+              <div>Disclaimer</div>
+              <hr/>
+              <p className="disclaimer">The information contained in this Website is provided for informational purposes only and should not be construed as legal advice on any subject matter.  No attorney-client relationship is created by viewing the content of this website, nor by sending or receiving info from this website.
+              </p>
+            </div>
+
           </div>
         </footer>
       )
     } else {
       return (
         <footer>
-          <div className="wrap row small-up-1 medium-up-2">
+          <div className="wrap row small-up-1 medium-up-3">
             <div className="column">
               <div>Información del Contacto</div>
               <hr/>
@@ -71,6 +78,13 @@ export var Footer = React.createClass({
                 <a href="#profile" >Perfil de Abagado</a>
                 <a href="#contact" >Contacto</a>
               </ul>
+            </div>
+
+            <div className="column">
+              <div>Disclaimer</div>
+              <hr/>
+              <p className="disclaimer">The information contained in this Website is provided for informational purposes only and should not be construed as legal advice on any subject matter.  No attorney-client relationship is created by viewing the content of this website, nor by sending or receiving info from this website.
+              </p>
             </div>
 
           </div>

@@ -9,7 +9,7 @@ export var Letter = React.createClass({
   render() {
 
     return(
-      <div className="callout secondary letter">
+      <div className="callout letter">
         <p>Thank you for your interest in Bacus Law.  I am the owner and sole attorney.  I am passionate about helping people who need to interact with the US immigration system by providing legal advice and representation with excellence and compassion.</p>
 
         <p>If you choose to work with me, I will do my best to ensure that you, the client, experience the following:</p>
