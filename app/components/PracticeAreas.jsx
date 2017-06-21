@@ -201,6 +201,7 @@ export var PracticeAreas = React.createClass({
             <br></br>
           </div>
         </section>
+        <br></br>
       </div>
     )
   }

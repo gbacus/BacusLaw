@@ -27,7 +27,7 @@ export var Home = React.createClass({
                     Welcome to Bacus Law - An Immigration Law Firm
                   </div>
               </div>
-          <div className="callout small main">
+          <div>
             <div className="row">
               <div className="small-5 medium-5 large-5 columns">
                 <img className="ericResize" src="/assets/eric.jpg" alt="Bacus Law Logo"/>
@@ -45,6 +45,7 @@ export var Home = React.createClass({
             </div>
           </div>
         </section>
+        <br></br>
       </div>
 
     )
