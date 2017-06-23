@@ -45,18 +45,18 @@ export var Navigation = React.createClass({
     var navString;
 
     if(Math.ceil(this.getScrollTop()) === 0) {
-      navString = "top-bar sticky is-anchored is-at-top";
+      navString = "sticky is-anchored is-at-top";
     } else {
-      navString = "top-bar sticky is-at-top is-stuck";
+      navString = "sticky is-at-top is-stuck";
     }
 
     //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
     if(BacusLawAPI.isMobile()) {
       if(1 === 1) {
       return (
-        <div>
+        <div data-sticky-container>
           {/*Mobile Nav Bar*/}
-          <div className="title-bar">
+          <div className= {`title-bar ${navString}`} id="nav-menu" data-sticky data-options="marginTop:0;">
             <div className="title-bar-left">
               <button className="menu-icon mobileHamburger" type="button" data-open="offCanvas"></button>
               <div className="title-bar-title center">
@@ -81,7 +81,11 @@ export var Navigation = React.createClass({
               </button>
 
               {/*Menu*/}
-              <ul className="vertical menu">
+              <ul className="vertical menu"
+                data-magellan
+                data-animation-duration={200}
+                data-bar-offset={60}
+              >
                 <li data-close=""><a href='#home'>Home</a></li>
                 <li data-close=""><a href='#areas'>Practice Areas</a></li>
                 <li data-close=""><a href='#profile'>Attorney Profile</a></li>
@@ -99,7 +103,7 @@ export var Navigation = React.createClass({
       if (!nav) {
         return (
           <div data-sticky-container>
-            <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
+            <div className={`top-bar ${navString}`} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
                 <ul className="dropdown menu"
                   data-magellan
@@ -136,7 +140,7 @@ export var Navigation = React.createClass({
       } else {
         return (
           <div data-sticky-container>
-            <div className={navString} id="nav-menu" data-sticky data-options="marginTop:0;">
+            <div className={`top-bar ${navString}`} id="nav-menu" data-sticky data-options="marginTop:0;">
               <div className="top-bar-left">
                 <ul className="dropdown menu"
                   data-magellan
