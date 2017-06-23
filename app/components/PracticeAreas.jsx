@@ -18,7 +18,7 @@ export var PracticeAreas = React.createClass({
           <div>
             <div className="sectionHeader">Practices Areas</div>
             <br></br>
-            <div className="row small-up-1 medium-up-4">
+            <div className="row small-up-2 large-up-4">
 
 
               <div className="column cardBox" data-open="asylum">
@@ -66,9 +66,7 @@ export var PracticeAreas = React.createClass({
               </div>
             </div>
 
-            <br></br>
-
-            <div className="row small-up-1 medium-up-4">
+            <div className="row small-up-2 large-up-4">
               <div className="column cardBox" data-open="citizenship">
                 <div className="card-divider cardTop">
                   Citizenship
