@@ -3,7 +3,7 @@ var {connect} = require('react-redux');
 var {Link, IndexLink} = require('react-router');
 import * as actions from 'actions';
 import * as Redux from 'react-redux';
-
+import $ from 'jquery'
 
 import BacusLawAPI from 'BacusLawAPI';
 
@@ -40,9 +40,6 @@ export var Navigation = React.createClass({
 
   },
 
-
-
-
   navBarRender: function() {
     var {nav, dispatch} = this.props;
     var navString;
@@ -53,53 +50,52 @@ export var Navigation = React.createClass({
       navString = "top-bar sticky is-at-top is-stuck";
     }
 
-
     //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
-    //if(BacusLawAPI.checkUserDevice()) {
-    //   if(1 === 0) {
-    //   return (
-    //     <div>
-    //       {/*Mobile Nav Bar*/}
-    //       <div className="title-bar">
-    //         <div className="title-bar-left">
-    //           <button className="menu-icon mobileHamburger" type="button" data-open="offCanvas"></button>
-    //           <div className="title-bar-title center">
-    //             <img
-    //               className='mobilelogo'
-    //               src='/assets/logo.jpg'
-    //               alt='logo' />
-    //           </div>
-    //         </div>
-    //         <div className="title-bar-right">
-    //           <div className="phoneNumber">(832) 910-7923</div>
-    //         </div>
-    //       </div>
+    if(BacusLawAPI.isMobile()) {
+      if(1 === 1) {
+      return (
+        <div>
+          {/*Mobile Nav Bar*/}
+          <div className="title-bar">
+            <div className="title-bar-left">
+              <button className="menu-icon mobileHamburger" type="button" data-open="offCanvas"></button>
+              <div className="title-bar-title center">
+                <img
+                  className='mobilelogo'
+                  src='/assets/logo.jpg'
+                  alt='logo' />
+              </div>
+            </div>
+            <div className="title-bar-right">
+              <div className="phoneNumber">(832) 910-7923</div>
+            </div>
+          </div>
 
-    //       {/*Off-Canvas*/}
-    //       <body>
-    //         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+          {/*Off-Canvas*/}
+          <body>
+            <div className="off-canvas position-left" id="offCanvas" data-off-canvas>
 
-    //           {/*Close Button*/}
-    //           <button class="close-button" aria-label="Close menu" type="button" data-close>
-    //             <span aria-hidden="true">&times;</span>
-    //           </button>
+              {/*Close Button*/}
+              <button className="close-button" aria-label="Close menu" type="button" data-close="">
+                <span aria-hidden="true">&times;</span>
+              </button>
 
-    //           {/*Menu*/}
-    //           <ul class="vertical menu">
-    //             <li><Link to='/profile' activeClassName='active-link'>Attorney Profile</Link></li>
-    //             <li><Link to='/contact' activeClassName='active-link'>Contact</Link></li>
-    //             <li><Link to='/clients' activeClassName='active-link'>Detained Clients</Link></li>
-    //             <li><Link to='/areas' activeClassName='active-link'>Practice Areas</Link></li>
-    //             <li><Link to='/perfil' activeClassName='active-link'>En Español</Link></li>
-    //           </ul>
-    //         </div>
+              {/*Menu*/}
+              <ul className="vertical menu">
+                <li data-close=""><a href='#home'>Home</a></li>
+                <li data-close=""><a href='#areas'>Practice Areas</a></li>
+                <li data-close=""><a href='#profile'>Attorney Profile</a></li>
+                <li data-close=""><a href='#contact'>Contact</a></li>
+              </ul>
+            </div>
 
-    //         <div class="off-canvas-content" data-off-canvas-content>
-    //         </div>
-    //       </body>
-    //     </div>
-    //   )
-    // } else {
+            <div className="off-canvas-content" data-off-canvas-content>
+            </div>
+          </body>
+        </div>
+      )
+    }
+    } else {
       if (!nav) {
         return (
           <div data-sticky-container>
@@ -174,7 +170,7 @@ export var Navigation = React.createClass({
           </div>
         )
       }
-    //}
+    }
   },
 
   render: function() {
