@@ -46,15 +46,17 @@ export var ContactUs = React.createClass({
                 </div>
               </div>
               <div className="row">
-                <div className="small-6 medium-6 large-6 columns callout textcenter">
+                <div className="small-12 medium-12 large-6 columns textcenter">
                   <img className="imageResize" src='/assets/BacusLawOfficePic.png' alt='Bacus Law Office sPic' />
+                  <div className="imgPadding"></div>
                 </div>
-                <div className="small-6 medium-6 large-6 columns callout textcenter">
+                <div className="small-12 medium-12 large-6 columns textcenter">
                     <GoogleMap />
                 </div>
               </div>
           </div>
         </section>
+        <br></br>
       </div>
     )
   }
