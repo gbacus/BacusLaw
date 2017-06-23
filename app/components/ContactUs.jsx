@@ -21,22 +21,24 @@ export var ContactUs = React.createClass({
               <div className="row">
                 <div className="small-12 medium-12 large-12 columns textcenter">
                   <a href="mailto:eric@bacuslaw.com">
-                    <div className="callout hoverContact" href="mailto:eric@bacuslaw.com">
+                    <div className="callout hoverContact card-divider" href="mailto:eric@bacuslaw.com">
                       <div className="textcenter">
                       <FaEnvelope/> eric@bacuslaw.com</div>
                     </div>
                   </a>
                   <a className="textcenter" href="tel:+1-832-910-7923">
-                    <div className="callout hoverContact">
+                    <div className="callout hoverContact card-divider">
                       <div>
                       <FaPhoneSquare/> (832) 910-7923</div>
                     </div>
                   </a>
-                  <div className="callout hoverContact">
-                      <div><FaFax/> Fax: (800) 823-3109</div>
-                  </div>
+                  <a>
+                    <div className="callout hoverContact card-divider">
+                        <div><FaFax/> Fax: (800) 823-3109</div>
+                    </div>
+                  </a>
                   <a href="https://www.google.com/maps/place/11040+East+Fwy,+Houston,+TX+77029/@29.7725893,-95.2357585,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bca93370032f:0x46ec39714c012dd9!8m2!3d29.7725893!4d-95.2335698" target="_blank">
-                    <div className="callout hoverContact">
+                    <div className="callout hoverContact card-divider">
                       <div>Located in Gonzalez Family Medicine Building</div>
                       <div><FaMapMarker className="FaMapMarker"/> 11040 East Fwy, Houston, TX 77029</div>
                     </div>
