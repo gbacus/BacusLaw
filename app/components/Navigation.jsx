@@ -52,22 +52,20 @@ export var Navigation = React.createClass({
 
     //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
     if(BacusLawAPI.isMobile()) {
-      if(1 === 1) {
+      if(!nav) {
       return (
         <div data-sticky-container>
           {/*Mobile Nav Bar*/}
           <div className= {`title-bar ${navString}`} id="nav-menu" data-sticky data-options="marginTop:0;">
             <div className="title-bar-left">
               <button className="menu-icon mobileHamburger" type="button" data-open="offCanvas"></button>
-              <div className="title-bar-title center">
-                <img
-                  className='mobilelogo'
-                  src='/assets/logo.jpg'
-                  alt='logo' />
-              </div>
             </div>
             <div className="title-bar-right">
-              <div className="phoneNumber">(832) 910-7923</div>
+                <a className='button mobileButton' onClick={() => {
+                    dispatch(actions.toggleLanguage())
+                    }
+                  }>En Español</a>
+              <a className="phoneNumber" href="tel:+1-832-910-7923">(832) 910-7923</a>
             </div>
           </div>
 
@@ -98,6 +96,50 @@ export var Navigation = React.createClass({
           </body>
         </div>
       )
+    } else {
+      return (
+        <div data-sticky-container>
+          {/*Mobile Nav Bar*/}
+          <div className= {`title-bar ${navString}`} id="nav-menu" data-sticky data-options="marginTop:0;">
+            <div className="title-bar-left">
+              <button className="menu-icon mobileHamburger" type="button" data-open="offCanvas"></button>
+            </div>
+            <div className="title-bar-right">
+                <a className='button mobileButton' onClick={() => {
+                    dispatch(actions.toggleLanguage())
+                    }
+                  }>In English</a>
+              <a className="phoneNumber" href="tel:+1-832-910-7923">(832) 910-7923</a>
+            </div>
+          </div>
+
+          {/*Off-Canvas*/}
+          <body>
+            <div className="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+              {/*Close Button*/}
+              <button className="close-button" aria-label="Close menu" type="button" data-close="">
+                <span aria-hidden="true">&times;</span>
+              </button>
+
+              {/*Menu*/}
+              <ul className="vertical menu"
+                data-magellan
+                data-animation-duration={200}
+                data-bar-offset={60}
+              >
+                <li data-close=""><a href='#home'>Inicio</a></li>
+                <li data-close=""><a href='#areas'>Servicios</a></li>
+                <li data-close=""><a href='#profile'>Attorney Profile</a></li>
+                <li data-close=""><a href='#contact'>Contact</a></li>
+              </ul>
+            </div>
+
+            <div className="off-canvas-content" data-off-canvas-content>
+            </div>
+          </body>
+        </div>
+      )
     }
     } else {
       if (!nav) {
@@ -117,15 +159,14 @@ export var Navigation = React.createClass({
                   </a></li>
                   <li><a href='#home'>Home</a></li>
                   <li><a href='#areas'>Practice Areas</a></li>
-                  <li><a href='#profile'>Attorney Profile</a></li>
-                  <li><a href='#contact'>Contact</a></li>
+                  <li><a href='#profile'>Perfil de Abogado</a></li>
+                  <li><a href='#contact'>Contacto</a></li>
                 </ul>
               </div>
               <div className="top-bar-right">
                 <ul className="dropdown menu">
                   <li><a className='button' onClick={() => {
                     dispatch(actions.toggleLanguage())
-
                     }
                   }>En Español</a></li>
                   <li>

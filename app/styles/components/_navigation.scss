@@ -29,9 +29,15 @@
   padding-left: 30px;
 }
 
+.mobileButton {
+  text-align: center;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
 .mobileHamburger {
   //@include hamburger($color, $color-hover, $width, $height, $weight, $bars);
-  @include hamburger($white, $white, 70px, 70px, 12px, 4);
+  @include hamburger($white, $white, 80px, 80px, 12px, 4);
 }
 
 .phoneNumber {

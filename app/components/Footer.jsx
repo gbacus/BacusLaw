@@ -13,8 +13,9 @@ export var Footer = React.createClass({
     if (!nav) {
       return (
         <footer>
-          <div className="wrap row small-up-1 medium-up-3">
+          <div className="wrap row small-up-1 large-up-3">
             <div className="column">
+              <br></br>
               <div>Contact Information</div>
               <hr/>
               <a href="mailto:eric@bacuslaw.com"><FaEnvelope/> eric@bacuslaw.com</a>
@@ -26,6 +27,7 @@ export var Footer = React.createClass({
             </div>
 
             <div className="column">
+              <br></br>
               <div>Site Map</div>
               <hr/>
               <ul className="dropdown menu"
@@ -41,6 +43,7 @@ export var Footer = React.createClass({
             </div>
 
             <div className="column">
+              <br></br>
               <div>Disclaimer</div>
               <hr/>
               <p className="disclaimer">The information contained in this Website is provided for informational purposes only and should not be construed as legal advice on any subject matter.  No attorney-client relationship is created by viewing the content of this website, nor by sending or receiving info from this website.
@@ -53,8 +56,9 @@ export var Footer = React.createClass({
     } else {
       return (
         <footer>
-          <div className="wrap row small-up-1 medium-up-3">
+          <div className="wrap row small-up-1 large-up-3">
             <div className="column">
+              <br></br>
               <div>Información del Contacto</div>
               <hr/>
               <a href="mailto:eric@bacuslaw.com"><FaEnvelope/> eric@bacuslaw.com</a>
@@ -66,6 +70,7 @@ export var Footer = React.createClass({
             </div>
 
             <div className="column">
+              <br></br>
               <div>Mapa del Sitio</div>
               <hr/>
               <ul className="dropdown menu"
@@ -81,6 +86,7 @@ export var Footer = React.createClass({
             </div>
 
             <div className="column">
+              <br></br>
               <div>Disclaimer</div>
               <hr/>
               <p className="disclaimer">The information contained in this Website is provided for informational purposes only and should not be construed as legal advice on any subject matter.  No attorney-client relationship is created by viewing the content of this website, nor by sending or receiving info from this website.

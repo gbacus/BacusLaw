@@ -29,7 +29,7 @@ export var Home = React.createClass({
               </div>
           <div>
             <div className="row">
-              <div className="small-5 medium-5 large-5 columns">
+              <div className="small-12 large-5 columns">
                 <img className="ericResize" src="/assets/eric.jpg" alt="Bacus Law Logo"/>
                 <div className="callToday">
                   <div className="introBold">Eric Bacus, Immigration Attorney</div>
@@ -39,7 +39,7 @@ export var Home = React.createClass({
                   <div><a className="boldNumber" href="tel:+1-832-910-7923">(832) 910-7923</a></div>
                 </div>
               </div>
-              <div className="small-7 medium-7 large-7 columns">
+              <div className="small-12 large-7 columns">
                 <Letter />
               </div>
             </div>
