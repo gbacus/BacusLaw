@@ -50,8 +50,8 @@ export var Navigation = React.createClass({
       navString = "sticky is-at-top is-stuck";
     }
 
-    //if(BacusLawAPI.checkUserDevice() || this.state.width < 800) {
-    if(BacusLawAPI.isMobile()) {
+    if(BacusLawAPI.isMobile() || this.state.width < 1025) {
+    //if(BacusLawAPI.isMobile()) {
       if(!nav) {
       return (
         <div data-sticky-container>
@@ -130,8 +130,8 @@ export var Navigation = React.createClass({
               >
                 <li data-close=""><a href='#home'>Inicio</a></li>
                 <li data-close=""><a href='#areas'>Servicios</a></li>
-                <li data-close=""><a href='#profile'>Attorney Profile</a></li>
-                <li data-close=""><a href='#contact'>Contact</a></li>
+                <li data-close=""><a href='#profile'>Perfil de Abogado</a></li>
+                <li data-close=""><a href='#contact'>Contacto</a></li>
               </ul>
             </div>
 
@@ -159,8 +159,8 @@ export var Navigation = React.createClass({
                   </a></li>
                   <li><a href='#home'>Home</a></li>
                   <li><a href='#areas'>Practice Areas</a></li>
-                  <li><a href='#profile'>Perfil de Abogado</a></li>
-                  <li><a href='#contact'>Contacto</a></li>
+                  <li><a href='#profile'>Attorney Profile</a></li>
+                  <li><a href='#contact'>Contact</a></li>
                 </ul>
               </div>
               <div className="top-bar-right">

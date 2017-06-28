@@ -24,3 +24,12 @@ body{
   border:0;
   color:$normal-text-color;
 }
+
+
+//mobile SCSS
+
+/* Using SCSS variables to store breakpoints */
+$breakpoint-tablet: 1025px;
+@media (min-width: $breakpoint-tablet) {
+  background: $oneScheme;
+}
