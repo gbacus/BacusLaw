@@ -50,8 +50,11 @@ export var Navigation = React.createClass({
       navString = "sticky is-at-top is-stuck";
     }
 
-    if(BacusLawAPI.isMobile() || this.state.width < 1025) {
+    //if(BacusLawAPI.isMobile() || this.state.width < 1025) {
     //if(BacusLawAPI.isMobile()) {
+
+    // taking out mobile capability for now.
+    if (1 === 0) {
       if(!nav) {
       return (
         <div data-sticky-container>
